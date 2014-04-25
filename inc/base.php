@@ -3,7 +3,6 @@
  * GeoProjects Base Variables
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 $upload_dir = wp_upload_dir();

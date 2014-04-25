@@ -3,7 +3,6 @@
  * GeoProjects JS i18n
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

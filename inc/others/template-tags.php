@@ -5,7 +5,6 @@
  * Eventually, some of the functionality here could be replaced by core features
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 
@@ -27,7 +26,6 @@ if ( ! function_exists( 'gp_content_nav' ) ) :
 /**
  * Display navigation to next/previous pages when applicable
  *
- * @since GeoProjects 1.0
  */
 function gp_content_nav( $nav_id ) {
 	global $wp_query, $post;
@@ -83,7 +81,6 @@ if ( ! function_exists( 'gp_comment' ) ) :
  *
  * Used as a callback by wp_list_comments() for displaying the comments.
  *
- * @since GeoProjects 1.0
  */
 function gp_comment( $comment, $args, $depth ) {
 	$GLOBALS['comment'] = $comment;
@@ -136,7 +133,6 @@ if ( ! function_exists( 'gp_posted_on' ) ) :
 /**
  * Prints HTML with meta information for the current post-date/time and author.
  *
- * @since GeoProjects 1.0
  */
 function gp_posted_on() {
 	printf( '<time datetime="%1$s">%2$s</time> ' . __( 'by', 'lang_geoprojects' ) . ' %3$s',
@@ -150,7 +146,6 @@ endif;
 /**
  * Returns true if a blog has more than 1 category
  *
- * @since GeoProjects 1.0
  */
 function gp_categorized_blog() {
 	if ( false === ( $all_the_cool_cats = get_transient( 'all_the_cool_cats' ) ) ) {
@@ -177,7 +172,6 @@ function gp_categorized_blog() {
 /**
  * Flush out the transients used in gp_categorized_blog
  *
- * @since GeoProjects 1.0
  */
 function gp_category_transient_flusher() {
 	// Like, beat it. Dig?

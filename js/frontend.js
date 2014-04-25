@@ -2,7 +2,6 @@
  * GeoProjects Frontend Javascript
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 /*! Respond.js v1.4.2: min/max-width media query polyfill

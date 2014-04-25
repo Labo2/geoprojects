@@ -2,7 +2,6 @@
  * GeoProjects Admin Javascript
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

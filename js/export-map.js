@@ -2,7 +2,6 @@
  * GeoProjects Map Export JS (in iframe)
  * 
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 /*! matchMedia() polyfill - Test a CSS media type/query in JS. Authors & copyright (c) 2012: Scott Jehl, Paul Irish, Nicholas Zakas. Dual MIT/BSD license */

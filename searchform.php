@@ -3,7 +3,6 @@
  * The template for displaying search forms
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 ?>
 	<form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">

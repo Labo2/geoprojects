@@ -3,7 +3,6 @@
  * The Template for displaying all single markers.
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 get_header(); ?>

@@ -3,7 +3,6 @@
  * The Default Sidebar
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 ?>
 <div id="secondary" role="complementary">

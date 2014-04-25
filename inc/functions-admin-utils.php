@@ -3,7 +3,6 @@
  * GeoProjects Admin Utils functions
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

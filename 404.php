@@ -3,7 +3,6 @@
  * The template for displaying 404 pages (Not Found).
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 get_header(); ?>

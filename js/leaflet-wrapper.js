@@ -3,7 +3,6 @@
  * Plugin pattern from http://coding.smashingmagazine.com/2011/10/11/essential-jquery-plugin-patterns/
  * 
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 // Force Leaflet to not use CSS 3D Transforms

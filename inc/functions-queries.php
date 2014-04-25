@@ -3,7 +3,6 @@
  * GeoProjects Queries to database functions
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

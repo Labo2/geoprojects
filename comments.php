@@ -8,7 +8,6 @@
  * located in the functions.php file.
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 ?>
 

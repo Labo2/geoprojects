@@ -74,7 +74,7 @@
 	<p>
 		<?php
 		printf(
-			__( 'Released under the GPL v.3 licensce, you can download this theme on %1$s. Please, feel free to report bugs and submit fixes or new features !', 'lang_geoprojects' ),
+			__( 'Released under the GPL v.2 license, you can download this theme on %1$s. Please, feel free to report bugs and submit fixes or new features !', 'lang_geoprojects' ),
 			'<a href="https://github.com/Labomedia/lm-maps-manager">GitHub</a>'
 		); ?>
 	</p>

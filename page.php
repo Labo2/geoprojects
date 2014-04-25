@@ -8,7 +8,6 @@
  * different template.
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 get_header(); ?>

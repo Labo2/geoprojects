@@ -3,7 +3,6 @@
  * GeoProjects Settings definitions
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

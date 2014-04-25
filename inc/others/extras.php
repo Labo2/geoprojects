@@ -5,14 +5,12 @@
  * Eventually, some of the functionality here could be replaced by core features
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 
 /**
  * Adds custom classes to the array of body classes.
  *
- * @since GeoProjects 1.0
  */
 function gp_body_classes( $classes ) {
 	// Adds a class of group-blog to blogs with more than 1 published author
@@ -27,7 +25,6 @@ add_filter( 'body_class', 'gp_body_classes' );
 /**
  * Filter in a link to a content ID attribute for the next/previous image links on image attachment pages
  *
- * @since GeoProjects 1.0
  */
 function gp_enhanced_image_navigation( $url, $id ) {
 	if ( ! is_attachment() && ! wp_attachment_is_image( $id ) )

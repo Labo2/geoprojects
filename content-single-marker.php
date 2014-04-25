@@ -3,7 +3,6 @@
  * Content for a single markers
  * 
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 ?>
 

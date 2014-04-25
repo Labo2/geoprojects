@@ -3,7 +3,6 @@
  * The Header
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>

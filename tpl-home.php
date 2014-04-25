@@ -3,7 +3,6 @@
  * Template Name: Home page
  * 
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 get_header();

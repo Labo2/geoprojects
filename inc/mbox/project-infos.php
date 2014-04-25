@@ -5,7 +5,6 @@
  * Goal : Choose a project for a post or a map
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

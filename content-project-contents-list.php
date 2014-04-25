@@ -3,7 +3,6 @@
  * Content for the project maps/posts list
  * 
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 ?>
 

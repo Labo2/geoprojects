@@ -3,7 +3,6 @@
  * Template Name: Big Map
  * 
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 get_header(); ?>

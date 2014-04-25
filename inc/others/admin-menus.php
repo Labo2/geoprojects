@@ -3,7 +3,6 @@
  * GeoProjects Admin Menus
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

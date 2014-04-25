@@ -6,7 +6,6 @@
  * This page is used for single maps and for exported maps (iframes)
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 // Exported Map

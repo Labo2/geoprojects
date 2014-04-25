@@ -3,7 +3,6 @@
  * GeoProjects Common functions
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 /**
@@ -62,7 +61,6 @@ add_action( 'after_switch_theme', 'gp_flush_rewrite_rules' );
  * before the init hook. The init hook is too late for some features, such as indicating
  * support post thumbnails.
  *
- * @since GeoProjects 1.0
  */
 function gp_setup() {
 
@@ -178,7 +176,6 @@ function gp_default_theme_options() {
  * Register widgetized area
  * Register Custom Widgets
  *
- * @since GeoProjects 1.0
  */
 function gp_widgets_init() {
 

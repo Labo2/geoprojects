@@ -5,7 +5,6 @@
  * - Show the last maps if there is less than X other contents
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 ?>
 <div id="secondary" role="complementary">

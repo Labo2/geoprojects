@@ -6,7 +6,6 @@
  * Add 'Map' column in MARKERS post type
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

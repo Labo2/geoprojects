@@ -9,7 +9,6 @@
  * - add a link in view filters for seeing orphan markers (no maps)
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

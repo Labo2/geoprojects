@@ -4,7 +4,6 @@
  * Post types : maps
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

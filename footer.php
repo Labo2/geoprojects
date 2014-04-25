@@ -5,7 +5,6 @@
  * Contains the closing of the id=main div and all content after
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 ?>
 				</div> <?php /* #main-content-inner */ ?>

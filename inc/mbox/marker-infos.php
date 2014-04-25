@@ -5,7 +5,6 @@
  * Goal : All the marker infos
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

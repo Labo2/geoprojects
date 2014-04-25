@@ -3,7 +3,6 @@
  * The template for displaying Search Results pages.
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 get_header(); ?>

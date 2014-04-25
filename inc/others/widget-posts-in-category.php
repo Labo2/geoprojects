@@ -5,7 +5,6 @@
  * Display a list of posts titles in the given category
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

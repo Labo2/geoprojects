@@ -3,7 +3,6 @@
  * GeoProjects AJAX functions
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

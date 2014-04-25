@@ -3,7 +3,6 @@
  * GeoProjects Frontend funtions
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 

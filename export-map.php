@@ -3,7 +3,6 @@
  * GeoProjects Export Map (in iframe)
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 global $wp_scripts;

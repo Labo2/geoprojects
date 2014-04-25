@@ -4,7 +4,6 @@
  * Display a post template in a list (archive, category...)
  * 
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 ?>
 

@@ -3,7 +3,6 @@
  * The template for displaying image attachments.
  *
  * @package GeoProjects
- * @since GeoProjects 1.0
  */
 
 get_header();
