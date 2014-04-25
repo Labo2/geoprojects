@@ -16,7 +16,7 @@
 		<meta name="viewport" content="width=device-width">
 		<meta name="author" content="Nicolas Derambure">
 
-		<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>?v=1.0.2">
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>?v=1.0.3">
 
 		<?php gp_the_css_for_custom_colors(); ?>
 
