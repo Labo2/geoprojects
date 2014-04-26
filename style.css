@@ -1,0 +1,1355 @@
+/*
+Theme Name: GeoProjects
+Author: Nicolas Derambure
+Author URI: http://labomedia.org
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+*/
+
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/* =======================
+ * MOBILE FIRST
+ * =======================
+ */
+
+
+/* General */
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-family:'Open Sans', Helvetica, sans-serif;
+    font-size:1em;
+    line-height:1.5em;
+    font-weight:400;
+    background-color:#2C3A4E;
+    color:#333;
+}
+strong {
+    font-weight:600;
+}
+a {text-decoration:none}
+
+.alignleft {
+    float: left;
+}
+.alignright {
+    float: right;
+}
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive images/embeds */
+
+.entry-content img,
+.comment-content img,
+.widget img,
+.map-content img,
+.marker-content img {
+    max-width: 100%;
+}
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+    height: auto;
+}
+img.size-full,
+img.size-large,
+img.header-image,
+img.wp-post-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.fluid-width-video-wrapper {
+    margin-bottom:2em;
+}
+
+
+/* Override the Twitter embed fixed width. */
+.entry-content .twitter-tweet-rendered {
+    max-width: 100% !important;
+}
+
+/* Images */
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.alignleft {
+    margin: 5px 20px 5px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 10px 5px 0;
+}
+
+img.alignright {
+    margin: 5px 0 5px 20px;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 5px 10px;
+}
+
+img.aligncenter {
+    margin: 5px auto;
+}
+
+img.alignnone {
+    margin: 5px 0;
+}
+
+.wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption {
+    margin:0 10px 5px 0;
+    padding:5px 8px;
+    font-size: 14px;
+    line-height:22px;
+    font-style: italic;
+    font-weight: 300;
+    color: #777;
+    text-align:center;
+}
+
+.gallery-icon {padding:0 8px}
+.gallery-icon img {border:none !important}
+.gallery-caption {margin:0}
+
+img.wp-smiley,
+.rsswidget img {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+.wp-caption.alignleft + ul,
+.wp-caption.alignleft + ol  {
+    list-style-position: inside;
+}
+
+/* Assistive text */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: auto;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    text-decoration: none;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar */
+}
+
+
+/* -----------------
+  Mobile First CSS
+------------------*/
+
+/* General */
+
+body                                    {font-weight:300}
+h1, h2, h3, h4, strong                  {font-weight:400}
+.txt-on-bg                              {color:#fff}
+
+i.status-draft,
+i.status-private                        {padding:0 4px; font-size:12px; font-style:normal; font-weight:300}
+i.status-draft                          {background:#E26D00; color:#fff}
+i.status-private                        {background:#000; color:#fff}
+
+iframe[src^="https://w.soundcloud.com/player/"] {width:100% !important}
+
+.site-title,
+#site-navigation .menu-toggle,
+#projects-list h1,
+.front-map h1,
+.front-maps-list-wrap > h1,
+.project-title,
+.map-in-list h1,
+.type-maps .map-title,
+.type-markers .marker-title,
+.marker-meta .same-map-title,
+.marker-meta h2,
+.side-title,
+.archive-title,
+.side-same-project ul h1,
+.side-last-maps ul h1,
+.widget h1                              {font-weight:400; font-family:'Ubuntu Condensed'}
+
+/* Structure */
+
+#wrap-main-content                      {margin:0 10px 1em}
+#primary                                {margin-bottom:1em}
+#secondary                              {margin:0 auto; max-width:400px}
+#colophon                               {margin:16px 0 0}
+
+/* Header */
+
+#masthead                               {position:relative; margin:0 auto; padding-top:50px; max-width:800px}
+.site-title                             {margin:0; padding:10px 10px 5px; font-size:36px; line-height:40px}
+.site-description                       {margin:0; padding:0 13px 4px; font-size:14px; line-height:21px}
+
+#site-navigation                        {position:absolute; top:0; left:0; z-index:9999}
+#site-navigation .menu-toggle           {display:inline-block; margin:0; padding:0 10px; font-size:24px; line-height:50px; font-weight:400; text-transform:uppercase; background-color:#86A2C2; color:#fff; cursor:pointer}
+#site-navigation .menu-toggle:hover,
+#site-navigation .menu-toggle.toggled-on {background-color:#39526E; color:#fff}
+#site-navigation ul                     {display:none; min-width:320px; margin:0; padding:0; list-style:none}
+#site-navigation ul.toggled-on          {display:block}
+#site-navigation ul li                  {border-bottom-width:1px; border-bottom-style:solid}
+#site-navigation ul a                   {display:block; padding:8px 10px; font-size:16px; line-height:24px; text-transform:uppercase}
+#site-navigation ul a:link,
+#site-navigation ul a:visited           {background-color:#fff}
+#site-navigation ul a:hover,
+#site-navigation ul a:active,
+#site-navigation ul a:focus,
+#site-navigation ul .current-menu-item a,
+#site-navigation ul .current_page_item a {color:#fff}
+
+.gp-social-icons                        {position:absolute; top:0; right:0; left:0; margin:0; padding:0 10px 0 0; height:50px; list-style:none; background:#000}
+.gp-social-icons li                     {float:right; margin-left:20px; padding-top:10px; height:50px}
+.gp-social-icons a                      {display:block; height:30px}
+.gp-social-icons .gp-icon-rss           {width:30px}
+.gp-social-icons .gp-icon-rss:link,
+.gp-social-icons .gp-icon-rss:visited   {background:transparent url(images/sprite.png) 0 -260px no-repeat}
+.gp-social-icons .gp-icon-rss:hover,
+.gp-social-icons .gp-icon-rss:active,
+.gp-social-icons .gp-icon-rss:focus     {background-position:0 -330px}
+.gp-social-icons .gp-icon-twitter       {width:37px}
+.gp-social-icons .gp-icon-twitter:link,
+.gp-social-icons .gp-icon-twitter:visited {background:transparent url(images/sprite.png) -164px -260px no-repeat}
+.gp-social-icons .gp-icon-twitter:hover,
+.gp-social-icons .gp-icon-twitter:active,
+.gp-social-icons .gp-icon-twitter:focus {background-position:-164px -330px}
+.gp-social-icons .gp-icon-facebook      {width:16px}
+.gp-social-icons .gp-icon-facebook:link,
+.gp-social-icons .gp-icon-facebook:visited {background:transparent url(images/sprite.png) -88px -260px no-repeat}
+.gp-social-icons .gp-icon-facebook:hover,
+.gp-social-icons .gp-icon-facebook:active,
+.gp-social-icons .gp-icon-facebook:focus {background-position:-88px -330px}
+.gp-social-icons .gp-icon-youtube       {width:25px}
+.gp-social-icons .gp-icon-youtube:link,
+.gp-social-icons .gp-icon-youtube:visited {background:transparent url(images/sprite.png) -258px -260px no-repeat}
+.gp-social-icons .gp-icon-youtube:hover,
+.gp-social-icons .gp-icon-youtube:active,
+.gp-social-icons .gp-icon-youtube:focus {background-position:-258px -330px}
+
+/* Leaflet Clusters */
+
+.marker-cluster-small                   {background-color:rgba(134, 162, 194, 0.6) !important}
+.marker-cluster-small div               {background-color:rgba(44, 58, 78, 0.6) !important}
+.marker-cluster-medium                  {background-color:rgba(134, 162, 194, 0.7) !important}
+.marker-cluster-medium div              {background-color:rgba(44, 58, 78, 0.7) !important}
+.marker-cluster-large                   {background-color:rgba(134, 162, 194, 0.8) !important}
+.marker-cluster-large div               {background-color:rgba(44, 58, 78, 0.8) !important}
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div               {color:#fff}
+
+.marker-cluster-medium                  {margin-top:-25px !important; margin-left:-25px !important; width:50px !important; height:50px !important; border-radius:25px !important}
+.marker-cluster-medium div              {width:40px !important; height:40px !important; border-radius:20px !important}
+.marker-cluster-medium span             {line-height:40px !important}
+.marker-cluster-large                   {margin-top:-30px !important; margin-left:-30px !important; width:60px !important; height:60px !important; border-radius:30px !important}
+.marker-cluster-large div               {width:50px !important; height:50px !important; border-radius:25px !important}
+.marker-cluster-large span              {line-height:50px !important}
+
+    /* IE 6-8 fallback colors */
+.leaflet-oldie .marker-cluster-small    {background-color:rgb(134, 162, 194) !important}
+.leaflet-oldie .marker-cluster-small div {background-color:rgb(44, 58, 78) !important}
+.leaflet-oldie .marker-cluster-medium   {background-color:rgb(134, 162, 194) !important}
+.leaflet-oldie .marker-cluster-medium div {background-color:rgb(44, 58, 78) !important}
+.leaflet-oldie .marker-cluster-large    {background-color:rgb(134, 162, 194) !important}
+.leaflet-oldie .marker-cluster-large div {background-color:rgb(44, 58, 78) !important}
+
+/* Projects List */
+
+#projects-list                          {margin:16px 10px 24px}
+#projects-list h1                       {margin:0 0 10px; font-size:26px; line-height:34px}
+#projects-list ul                       {margin:0; padding:0; list-style:none; font-size:1em; line-height:1.5em}
+#projects-list li                       {padding-bottom:.5em}
+#projects-list li a                     {display:block; padding:.5em .75em}
+#projects-list li a:link,
+#projects-list li a:visited             {color:#fff}
+#projects-list li a:hover,
+#projects-list li a:active,
+#projects-list li a:focus,
+#projects-list li.current-project-page a {color:#fff}
+.project-hide-for-min                   {display:none}
+.projects-list-more                     {margin:.5em 0; font-size:.875em; line-height:1em; font-style:italic; text-align:right}
+.projects-list-more-med                 {display:none}
+.projects-list-more-max                 {display:none}
+
+/* Front Maps List */
+
+.front-maps-list-wrap                   {margin:0 auto; max-width:400px}
+.front-maps-list-wrap > h1              {margin:0 0 10px; font-size:26px; line-height:34px}
+.front-maps-list article                {margin-bottom:1em}
+.front-map-inner-wrap                   {position:relative; overflow:hidden; height:250px; background-color:#fff}
+.front-map header                       {position:absolute; bottom:0; right:0; left:0; z-index:9999; background-color:rgba(256,256,256,0.88)}
+.front-map h1                           {margin:8px 10px; font-size:22px; line-height:30px; font-weight:400}
+.front-map h1 a                         {display:block}
+.front-map-project                      {margin:-4px 10px 8px; font-size:.875em; line-height:1.5em; font-weight:400; font-style:italic; color:#777}
+.front-map .gp-leaflet-map              {height:250px; background:#eee url(images/loading.gif) 50% 30% no-repeat !important}
+.map-more                               {display:block; height:250px}
+
+/* Normal contents */
+
+.hentry                                 {margin:0 auto; padding:12px 0 8px; max-width:800px; background-color:#fff; border:1px solid #fff; border-width:1px 0}
+.entry-header                           {margin:0 16px 32px}
+.entry-title                            {margin:0 0 32px; font-size:24px; line-height:34px}
+.entry-content                          {margin:32px 16px 0}
+
+/* Single Post & Post in list */
+
+.blog-post-in-list                      {margin-bottom:16px}
+.blog-post-in-list .entry-header        {margin-bottom:16px}
+.blog-post-in-list .entry-fimg          {display:none}
+.blog-post-in-list .entry-title,
+body.single-post .entry-title           {margin:0 0 8px}
+.blog-post-in-list .entry-title a       {display:block}
+.entry-meta                             {font-size:14px}
+.entry-date                             {margin:0; font-size:16px; line-height:26px}
+.entry-date time                        {font-size:18px; font-weight:400}
+.entry-categories                       {margin:0; font-size:14px; line-height:26px; color:#777}
+.entry-categories span                  {font-size:18px}
+.entry-summary                          {margin:16px 16px 0}
+.entry-summary .entry-more              {font-size:14px; padding:0 4px; color:#fff}
+
+/* Single Project */
+
+article.type-projects                   {max-width:800px; margin:0 auto; padding:.75em 1em 0; color:#fff}
+article.type-projects a:hover,
+article.type-projects a:active,
+article.type-projects a:focus           {color:#fff}
+.project-header                         {margin:0 0 1em}
+.project-title                          {margin:0; font-size:26px; line-height:34px}
+.project-date                           {margin:.5em 0 0}
+.project-owner                          {margin:0}
+.project-date,
+.project-owner                          {font-size:.875em; font-weight:400}
+.project-date span,
+.project-owner span                     {font-weight:300; color:#aaa}
+.attachment-gp-project-thumb            {display:block; margin:1em auto}
+.project-content                        {margin:1em 0 1em}
+.project-meta                           {margin:1em 0}
+.project-follow,
+.project-file                           {color:#aaa}
+.project-follow                         {margin:0; font-size:.875em}
+.project-file                           {margin:0; font-size:.875em}
+.project-follow span,
+.project-file span                      {display:block; padding-left:10px}
+
+.project-contents-list                  {max-width:400px; margin:1em auto 0}
+.project-contents-list article          {margin-bottom:16px}
+.project-contents-list .inner-wrap      {position:relative; overflow:hidden; height:250px; background-color:#fff}
+.post-in-list h1,
+.map-in-list h1                         {margin:0; padding:8px 16px; font-size:22px; line-height:30px; font-weight:400}
+.map-in-list h1                         {position:absolute; bottom:0; right:0; left:0; background-color:rgba(256,256,256,0.88); z-index:9999}
+.post-in-list a                         {display:block}
+.post-in-list p                         {margin:0; padding:0 16px 12px}
+.map-in-list h1 a                       {display:block}
+.map-in-list .gp-leaflet-map            {height:250px; background:#eee url(images/loading.gif) 50% 30% no-repeat !important}
+
+/* Single Map */
+
+article.type-maps                       {margin:0 auto; max-width:800px; background-color:#fff; border-top:1px solid #fff; border-bottom:1px solid #fff}
+.type-maps .map-title                   {margin:12px 18px 0; font-size:26px; line-height:34px}
+.type-maps .gp-leaflet-map-container    {margin-top:14px}
+.type-maps .gp-leaflet-map              {height:300px; background:#eee url(images/loading.gif) 50% 50% no-repeat !important}
+.type-maps .map-project                 {margin:5px 18px 0; font-size:16px; line-height:22px; font-style:italic}
+.type-maps .map-content                 {margin:16px; font-size:16px; line-height:24px}
+
+.leaflet-popup-content .map-popup-marker-content {width:200px}
+
+.gp-leaflet-map-container .gp-map-markers-index ul              {border-bottom:1px solid #fff; box-shadow:inset 0 -10px 20px -12px #000}
+.gp-leaflet-map-container .gp-map-markers-index ul a:hover,
+.gp-leaflet-map-container .gp-map-markers-index ul a:active,
+.gp-leaflet-map-container .gp-map-markers-index ul a:focus      {color:#fff}
+
+/* Single Marker */
+
+article.type-markers                    {margin:0 auto; max-width:800px; background-color:#fff; border-top:1px solid #fff; border-bottom:1px solid #fff}
+.type-markers .marker-title             {margin:12px 18px 0; font-size:26px; line-height:34px}
+.marker-content                         {margin:16px 18px; font-size:16px; line-height:24px}
+.marker-meta                            {position:relative; margin:28px 0 0; padding:16px; border-top:1px solid #e1e1e1; background-color:#f5f5f5}
+.marker-meta .same-map-title            {margin:0 0 8px; font-size:22px; line-height:22px; font-weight:400}
+.marker-meta h2                         {margin:0; font-size:22px; line-height:30px}
+.marker-project                         {margin:5px 0 0; color:#777; font-style:italic}
+.type-markers .gp-leaflet-map-container {margin-top:12px}
+.type-markers .gp-leaflet-map           {height:300px; background:#eee url(images/loading.gif) 50% 50% no-repeat !important}
+
+/* Archive / Category Pages */
+
+.archive-title                          {margin:0 0 10px; font-size:26px; line-height:34px}
+
+/* Big map */
+
+#big-map-page                           {padding-bottom:0; border-bottom:none}
+#big-map-page .entry-header,
+#big-map-page .entry-title              {margin-bottom:16px}
+#big-map-page .entry-content            {margin-top:16px}
+#big-map-page .gp-leaflet-map           {height:300px; background:#eee url(images/loading.gif) 50% 50% no-repeat !important}
+
+/* Contents Navigation */
+
+.site-navigation                        {margin:16px auto; max-width:800px}
+.site-navigation a:link,
+.site-navigation a:visited,
+.site-navigation a:hover,
+.site-navigation a:active,
+.site-navigation a:focus                {display:block; padding:8px 16px; font-size:16px; line-height:24px; color:#fff}
+.site-navigation .nav-next              {margin-top:8px; text-align:right}
+
+/* Sidebars */
+
+.side-title                             {margin:0 0 10px; padding:0; font-size:22px; line-height:30px}
+
+.side-same-project-inner                {position:relative; height:200px; background-color:#fff}
+.side-same-project ul                   {margin:0; padding:0; list-style:none}
+.side-same-project li                   {margin-bottom:16px}
+.side-same-project ul h1                {margin:0; padding:8px 10px; font-size:20px; line-height:26px}
+.side-same-project-map h1               {position:absolute; top:0; right:0; left:0; background-color:rgba(256,256,256,0.88); z-index:9999}
+.side-same-project-map .gp-leaflet-map  {height:200px; background:#eee url(images/loading.gif) 50% 65% no-repeat !important}
+.side-same-project-post p               {margin:0; padding:0 10px 10px; font-size:14px; line-height:21px}
+.side-same-project-map .map-more        {height:200px}
+
+.side-last-map-inner                    {position:relative; height:200px; background-color:#fff}
+.side-last-maps ul                      {margin:0; padding:0; list-style:none}
+.side-last-maps li                      {margin-bottom:16px}
+.side-last-maps ul h1                   {position:absolute; top:0; right:0; left:0; margin:0; padding:8px 10px; font-size:20px; line-height:26px; background-color:rgba(256,256,256,0.88); z-index:9999}
+.side-last-maps .gp-leaflet-map         {height:200px; background:#eee url(images/loading.gif) 50% 65% no-repeat !important}
+.side-last-maps .map-more               {height:200px}
+
+/* Comments */
+
+#comments                               {margin:16px auto; max-width:800px}
+#comment                                {width:100%}
+.comment-form-text-fields p:first-child {margin-top:0}
+.comment-form-text-fields p:last-child  {margin-bottom:0}
+.commentlist                            {margin:0; padding:0; list-style:none}
+.commentlist article                    {position:relative; margin:0 0 16px 66px; padding:0 16px; background-color:#fff}
+.comment-author                         {padding-top:12px}
+.comment-author img                     {position:absolute; left:-66px; top:0}
+.awaiting-mod                           {margin:8px 0; font-size:14px; font-style:italic; color:#43D34E}
+.commentlist .children                  {margin:0; padding:0; list-style:none}
+.commentlist > li > .children           {margin-left:66px}
+.commentlist .reply                     {padding:0 0 12px; text-align:right}
+#reply-title                            {margin:0; padding:0; font-size:22px; line-height:30px; color:#fff}
+#commentform                            {padding:0 16px; background-color:#fff; border:1px solid #fff; border-width:1px 0 1px 0}
+#commentform label                      {display:block; padding:0 0 5px; font-weight:400}
+#respond                                {margin-top:16px}
+
+/* Footer */
+
+#colophon                               {background-color:#fff; box-shadow:inset 0 10px 10px -10px #2C3A4E}
+.widget                                 {margin:16px; font-size:14px; line-height:22px}
+.widget h1                              {margin:0; font-size:18px; line-height:26px}
+.widget ul                              {margin:0; padding:8px 8px 0; list-style:none; border-bottom:1px solid #e8e8e8}
+.widget li                              {padding:8px 0; border-top:1px solid #e8e8e8}
+.widget li a                            {display:block}
+
+.footer-contact                         {margin:20px 0 8px; padding-left:8px}
+.footer-contact span,
+.footer-contact a                       {display:block}
+.footer-contact-tel                     {padding:8px 0}
+.widget-posts-in-list-more              {padding-left:8px}
+.widget-posts-in-list-more a            {float:left; padding:5px 8px; font-size:12px; line-height:12px; text-transform:uppercase}
+.widget-posts-in-list-more a:link,
+.widget-posts-in-list-more a:visited    {color:#fff}
+
+.widget #wp-calendar                    {margin-top:8px; width:250px}
+.widget #wp-calendar caption            {padding-bottom:10px}
+.widget #wp-calendar tbody td           {text-align:center}
+.widget #wp-calendar tbody a            {display:block}
+.widget #searchform label               {display:none}
+
+.created-by-labomedia                   {margin:16px 0 0; padding:0 0 16px; text-align:center}
+.created-by-labomedia a                 {position:relative; display:block; margin:0 auto; width:200px; height:60px; background:transparent url(images/logo-footer-signature.png) 50% 28px no-repeat}
+.created-by-labomedia a span            {padding:2px 4px; font-size:12px; line-height:12px; background-color:#333; color:#fff; border-radius:3px}
+.created-by-labomedia a:link span,
+.created-by-labomedia a:visited span    {display:none}
+.created-by-labomedia a:hover span,
+.created-by-labomedia a:active span,
+.created-by-labomedia a:focus span      {display:inline}
+
+
+/* ---------------------
+  550px <= Width
+--------------------- */
+
+@media screen and (min-width: 550px) {
+
+    /* Single Project */
+
+    .project-follow span,
+    .project-file span                      {display:inline; padding-left:0}
+
+    /* Single Map */
+
+    .type-maps .gp-leaflet-map              {height:350px}
+
+    .gp-map-actions-toggles                 {position:absolute; top:302px; left:10px; z-index:9999}
+    .gp-map-actions-toggles a               {float:left; margin-right:10px; border-width:4px; border-style:solid}
+    .gp-map-actions-toggles .gp-map-markers-index-toggle {padding:8px 8px 8px 40px}
+    .gp-map-actions-toggles .gp-map-markers-index-toggle:link,
+    .gp-map-actions-toggles .gp-map-markers-index-toggle:visited {background-image:url(images/sprite.png); background-position:-469px 5px; background-repeat:no-repeat}
+    .gp-map-actions-toggles .gp-map-export-map-toggle {padding:8px 8px 8px 31px}
+    .gp-map-actions-toggles .gp-map-export-map-toggle:link,
+    .gp-map-actions-toggles .gp-map-export-map-toggle:visited {background-image:url(images/sprite.png); background-position:-478px -50px; background-repeat:no-repeat}
+    .gp-map-actions-toggles .gp-map-markers-index-toggle:hover,
+    .gp-map-actions-toggles .gp-map-markers-index-toggle:active,
+    .gp-map-actions-toggles .gp-map-markers-index-toggle:focus,
+    .gp-map-actions-toggles .gp-map-markers-index-toggle.active,
+    .gp-map-actions-toggles .gp-map-export-map-toggle:hover,
+    .gp-map-actions-toggles .gp-map-export-map-toggle:active,
+    .gp-map-actions-toggles .gp-map-export-map-toggle:focus,
+    .gp-map-actions-toggles .gp-map-export-map-toggle.active {color:#fff}
+    .gp-map-marker                          {float:left; width:50%}
+    .gp-map-marker:nth-child(odd)           {clear:left; padding-right:5px}
+    .gp-map-marker:nth-child(even)          {padding-left:5px}
+
+    .gp-map-export-height                   {float:left; width:40%}
+    .gp-map-export-code                     {float:left; width:60%}
+
+    .type-maps .map-content                 {margin:28px 32px; line-height:28px}
+
+    /* Single Marker */
+
+    .marker-content                         {margin:16px 32px; line-height:28px}
+
+    .type-markers .gp-leaflet-map           {height:350px}
+
+    /* Single Post & Post in list */
+
+    .blog-post-in-list .entry-fimg          {display:block; float:right; margin:0 0 8px 16px; width:100px}
+
+    /* Normal contents */
+
+    .entry-header                           {margin:0 18px 32px}
+    .entry-content                          {margin:32px 32px 0; line-height:28px}
+    .entry-summary                          {margin:16px 32px 0; line-height:28px}
+
+    /* Big Map */
+
+    #big-map-page .gp-leaflet-map           {height:350px}
+
+    /* Contents Navigation */
+
+    .site-navigation div                    {width:50%}
+    .site-navigation .nav-previous          {float:left; padding-right:8px}
+    .site-navigation .nav-next              {float:right; margin-top:0; padding-left:8px}
+
+    /* Sidebars */
+
+    .side-same-project-post p               {line-height:24px}
+
+}
+
+
+/* ---------------------
+  650px <= Width
+--------------------- */
+
+@media screen and (min-width: 650px) {
+
+    /* Header */
+
+    .site-title                             {font-size:48px; line-height:50px}
+
+    /* Structure */
+
+    #secondary                              {max-width:800px}
+
+    /* Projects List */
+
+    .projects-list-inner-wrap               {margin:0 auto; max-width:800px}
+    #projects-list li                       {float:left; width:50%}
+    #projects-list li:nth-child(odd)        {padding-right:5px}
+    #projects-list li:nth-child(even)       {padding-left:5px}
+    #projects-list li a                     {overflow:hidden; padding:0 .75em; height:2.5em; line-height:2.5em}
+    .project-hide-for-min                   {display:block}
+    .project-hide-for-med                   {display:none}
+    .projects-list-more                     {padding-right:10px}
+    .projects-list-more-min                 {display:none}
+    .projects-list-more-med                 {display:block}
+
+    /* Front Maps List */
+
+    .front-maps-list-wrap                   {max-width:800px}
+    .front-maps-list article                {float:left; width:50%}
+    .front-maps-list article:nth-child(odd) {clear:left; padding-right:.5em}
+    .front-maps-list article:nth-child(even) {padding-left:.5em}
+
+    /* Single Project */
+
+    .project-title                          {font-size:30px; line-height:38px}
+
+    .project-with-thumbnail .project-header {float:left; width:60%}
+    .attachment-gp-project-thumb            {float:right; margin-top:.25em; padding:0 0 0 1em; width:40%}
+
+    .project-contents-list                  {max-width:800px}
+    .project-contents-list article          {float:left; width:50%}
+    .project-contents-list article:nth-child(odd) {clear:left; padding-right:.5em}
+    .project-contents-list article:nth-child(even) {padding-left:.5em}
+
+    /* Single Map */
+
+    .type-maps .map-title                   {font-size:30px; line-height:38px}
+    .type-maps .map-project                 {margin-top:6px}
+
+    .gp-map-export-height                   {float:left; width:30%}
+    .gp-map-export-code                     {float:left; width:70%}
+
+    /* Single Marker */
+
+    .type-markers .marker-title             {font-size:30px; line-height:38px}
+
+    /* Normal contents */
+
+    .entry-title                            {font-size:28px; line-height:38px}
+
+    /* Comments */
+
+    .comment-form-text-fields p             {float:left; width:50%}
+
+    /* Sidebars */
+
+    .side-same-project ul,
+    .side-last-maps ul                      {padding:0}
+    .side-same-project li,
+    .side-last-maps li                      {float:left; width:50%}
+    .side-same-project li:nth-child(odd),
+    .side-last-maps li:nth-child(odd)       {clear:left; padding-right:8px}
+    .side-same-project li:nth-child(even),
+    .side-last-maps li:nth-child(even)      {padding-left:8px}
+    .side-same-project-post p               {margin:8px 0 0}
+
+    /* Footer */
+
+    .footer-widgets                         {margin:0 auto; max-width:800px; padding:16px 10px 0}
+    .widget                                 {float:left; width:50%; margin:0 0 16px}
+    .widget:nth-child(odd)                  {clear:left; padding-right:8px}
+    .widget:nth-child(even)                 {padding-left:8px}
+
+}
+
+
+/* ---------------------
+  768px <= Width
+--------------------- */
+
+@media screen and (min-width: 768px) {
+
+    /* Header */
+
+    #masthead                               {padding-top:0}
+
+    .site-title                             {padding-right:210px}
+
+    #site-navigation                        {position:inherit; padding:10px 10px 0 2px}
+    #site-navigation .menu-toggle           {display:none}
+    #site-navigation ul                     {display:block; float:right}
+    #site-navigation ul li                  {float:left; margin:0 0 8px 8px; border:none}
+    #site-navigation ul a                   {border-top-width:4px; border-top-style:solid}
+    #site-navigation ul a:hover,
+    #site-navigation ul a:active,
+    #site-navigation ul a:focus,
+    #site-navigation ul .current-menu-item a {color:#fff}
+
+    .gp-social-icons                        {top:15px; right:10px; left:inherit; padding:0; background:transparent}
+
+    /* Single Map */
+
+    .type-maps .gp-leaflet-map              {height:400px}
+
+    .gp-map-actions-toggles                 {top:352px}
+    .gp-map-export-code #gp-map-export-code {height:60px}
+
+    .leaflet-popup-content .map-popup-marker-content {width:250px}
+
+    .gp-map-marker                          {float:left; width:33%}
+    .gp-map-marker:nth-child(odd)           {clear:none; padding-right:0}
+    .gp-map-marker:nth-child(even)          {padding-left:0}
+    .gp-map-marker:nth-child(3n+1)          {clear:left; padding-right:7px}
+    .gp-map-marker:nth-child(3n+2)          {padding-left:3px; padding-right:3px}
+    .gp-map-marker:nth-child(3n+3)          {padding-left:7px}
+
+    /* Single Marker */
+
+    .type-markers .gp-leaflet-map           {height:400px}
+
+    /* Single Post & Post in list */
+
+    .blog-post-in-list .entry-fimg          {width:200px}
+
+    /* Big Map */
+
+    #big-map-page .gp-leaflet-map           {height:400px}
+
+}
+
+
+/* ---------------------
+  990px <= Width
+--------------------- */
+
+@media screen and (min-width: 990px) {
+
+    /* Structure */
+
+    #main                                   {margin:0 auto; max-width:1075px}
+    #projects-list                          {position:relative; float:left; margin:0; padding-left:16px; width:270px}
+    #wrap-main-content                      {float:right; margin:0 0 0 -270px; width:100%}
+    #main-content-inner                     {margin-left:270px; padding:0 16px 0 16px}
+    #primary                                {margin-top:44px}
+    body.page-template-tpl-home-php #primary {margin-top:0}
+
+    /* Header */
+
+    #masthead                               {max-width:1075px}
+    .site-title                             {padding:10px 16px 5px}
+    .site-description                       {padding:0 16px 10px}
+    #site-navigation                        {margin-bottom:16px; padding:10px 16px 0}
+
+    /* Projects List */
+
+    .projects-list-inner-wrap               {margin:0; max-width:inherit}
+    #projects-list li                       {float:none; width:100%}
+    #projects-list li:nth-child(odd)        {padding-right:0}
+    #projects-list li:nth-child(even)       {padding-left:0}
+    #projects-list li a                     {overflow:auto; padding:.5em .75em; height:inherit; line-height:1.5em}
+    .project-hide-for-min,
+    .project-hide-for-med                   {display:block}
+    .project-hide-for-max                   {display:none}
+    .projects-list-more-min,
+    .projects-list-more-med                 {display:none}
+    .projects-list-more-max                 {display:block}
+    .projects-list-more                     {padding-right:0}
+
+    /* Normal contents */
+    
+    .hentry                                 {margin:0; max-width:inherit}
+
+    /* Single Post & Post in list */
+
+    .blog-post-in-list                      {margin-bottom:16px}
+
+    /* Single Project */
+
+    article.type-projects                   {margin:0}
+    .project-contents-list                  {max-width:1075px}
+
+    /* Single Map */
+
+    article.type-maps                       {margin:0}
+
+    /* Single Marker */
+
+    article.type-markers                    {margin:0}
+
+    /* Archive page */
+
+    body.archive #wrap-main-content         {margin-top:0}
+
+    /* Big Map */
+
+    #big-map-page .gp-leaflet-map           {height:450px}
+
+    /* Contents Navigation */
+
+    .site-navigation                        {margin:16px 0; max-width:inherit}
+
+    /* Comments */
+
+    #comments                               {margin:16px 0; max-width:inherit}
+
+    /* Footer */
+
+    .footer-widgets                         {max-width:1075px; padding-left:286px}
+
+}
+
+
+/* ---------------------
+  1280px <= Width
+--------------------- */
+
+@media screen and (min-width: 1280px) {
+
+    /* Structure */
+
+    #main                                   {max-width:1500px}
+    #primary                                {float:left; width:68%}
+    body.home #primary,
+    body.single-projects #primary           {float:none; width:100%}
+    #secondary                              {float:right; margin:37px 0 0; width:32%}
+
+    /* Header */
+
+    #masthead                               {max-width:1500px}
+
+    /* Front Maps List */
+
+    .front-maps-list-wrap                   {max-width:inherit}
+    .front-maps-list article                {width:33.333%}
+    .front-maps-list article:nth-child(odd) {clear:none; padding-right:0}
+    .front-maps-list article:nth-child(even) {padding-left:0}
+    .front-maps-list article:nth-child(3n+1) {clear:left; padding-right:11px}
+    .front-maps-list article:nth-child(3n+2) {padding:0 5px}
+    .front-maps-list article:nth-child(3n+3) {padding-left:11px}
+
+    /* Single Project */
+
+    article.type-projects                   {position:relative; float:left; margin:0; width:30%}
+    .project-header                         {float:none; width:100%}
+    .attachment-gp-project-thumb            {float:none; margin:0; padding:0; width:auto}
+    .project-contents-list                  {float:right; margin:0 0 0 -30%; padding-top:0; max-width:inherit; width:100%}
+    .project-contents-list-inner            {margin-left:30%; padding:0 0 0 1em}
+    .project-follow span,
+    .project-file span                      {display:block; padding-left:10px}
+
+    /* Single Map */
+
+    article.type-maps                       {max-width:inherit}
+
+    .type-maps .gp-leaflet-map              {height:450px}
+
+    .gp-map-actions-toggles                 {top:402px}
+
+    /* Big Map */
+
+    #big-map-page .gp-leaflet-map           {height:500px}
+
+    /* Single Marker */
+
+    .type-markers .gp-leaflet-map           {height:450px}
+
+    /* Sidebars */
+
+    #secondary aside                        {margin-left:16px}
+
+    .side-same-project ul,
+    .side-last-maps ul                      {padding:0}
+    .side-same-project li,
+    .side-last-maps li                      {float:none; width:100%}
+    .side-same-project li:nth-child(odd),
+    .side-same-project li:nth-child(even),
+    .side-last-maps li:nth-child(odd),
+    .side-last-maps li:nth-child(even)      {padding:0}
+
+    /* Footer */
+
+    .footer-widgets                         {max-width:1500px}
+    .nb-widgets-3 .widget                   {width:33%}
+    .nb-widgets-3 .widget:nth-child(odd)    {clear:none; padding-right:0}
+    .nb-widgets-3 .widget:nth-child(even)   {padding-left:0}
+    .nb-widgets-3 .widget:nth-child(3n+1)   {clear:left; padding-right:11px}
+    .nb-widgets-3 .widget:nth-child(3n+2)   {padding:0 5px}
+    .nb-widgets-3 .widget:nth-child(3n+3)   {padding-left:11px}
+    .nb-widgets-4                           {padding:16px}
+    .nb-widgets-4 .widget                   {width:25%}
+    .nb-widgets-4 .widget:nth-child(odd)    {clear:none; padding-right:0}
+    .nb-widgets-4 .widget:nth-child(even)   {padding-left:0}
+    .nb-widgets-4 .widget:nth-child(4n+1)   {clear:left; padding-right:11px}
+    .nb-widgets-4 .widget:nth-child(4n+2)   {padding:0 5px}
+    .nb-widgets-4 .widget:nth-child(4n+3)   {padding:0 5px}
+    .nb-widgets-4 .widget:nth-child(4n+4)   {padding-left:11px}
+    .nb-widgets-5                           {padding:16px}
+    .nb-widgets-5 .widget                   {width:20%}
+    .nb-widgets-5 .widget:nth-child(odd)    {clear:none; padding-right:0}
+    .nb-widgets-5 .widget:nth-child(even)   {padding-left:0}
+    .nb-widgets-5 .widget:nth-child(5n+1)   {clear:left; padding-right:11px}
+    .nb-widgets-5 .widget:nth-child(5n+2)   {padding:0 5px}
+    .nb-widgets-5 .widget:nth-child(5n+3)   {padding:0 5px}
+    .nb-widgets-5 .widget:nth-child(5n+4)   {padding:0 5px}
+    .nb-widgets-5 .widget:nth-child(5n+5)   {padding-left:11px}
+
+}
+
+
+/* Utils */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
