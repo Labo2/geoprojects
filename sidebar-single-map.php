@@ -14,6 +14,7 @@
 		<?php
 		$project_contents_total = 0;
 		$map_project_ID = get_post_meta( get_the_ID(), 'gp_project', true );
+		$maps_in_this_project = array();
 
 		if ( $map_project_ID != 0 ) :
 			
@@ -54,6 +55,8 @@
 									<?php
 									// Content type MAPS
 									if ( $post->post_type == 'maps' ) : ?>
+
+										<?php $maps_in_this_project[] = get_the_ID(); ?>
 
 										<?php
 										// Has featured image ?
@@ -165,9 +168,12 @@
 		if ( $project_contents_total <= GP_NB_OTHER_CONTENTS_IN_SAME_PROJECT_TRIGGER_LAST_MAPS ) : ?>
 
 			<?php
+			$maps_in_this_project[] = get_the_ID();
+			$maps_in_this_project = array_flip( array_flip( $maps_in_this_project ) );
+
 			gp_the_side_last_maps( array( 
 				'max_maps' 		=> GP_NB_SIDE_LAST_MAPS - $project_contents_total,
-				'excluded_maps'	=> array( get_the_ID() )
+				'excluded_maps'	=> $maps_in_this_project
 			));
 			?>
 
