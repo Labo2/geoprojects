@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoProjects\n"
-"POT-Creation-Date: 2014-04-25 14:19+0100\n"
-"PO-Revision-Date: 2014-04-25 14:19+0100\n"
+"POT-Creation-Date: 2014-04-28 14:16+0100\n"
+"PO-Revision-Date: 2014-04-28 14:17+0100\n"
 "Last-Translator: Labomedia <nderambure@labomedia.net>\n"
 "Language-Team: Labomedia <nderambure@labomedia.net>\n"
 "Language: fr\n"
@@ -16,71 +16,71 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../404.php:17
+#: ../404.php:16
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Oops ! Cette page n'existe apparemment pas."
 
-#: ../404.php:22
+#: ../404.php:21
 msgid "It looks like nothing was found at this location."
 msgstr ""
 "Apparemment, rien n'a été trouvé ici hormis ce que vous êtes en train de "
 "lire."
 
-#: ../archive.php:22
+#: ../archive.php:21
 #, php-format
 msgid "Category Archives : %s"
 msgstr "Archives de la catégorie : %s"
 
-#: ../archive.php:25
+#: ../archive.php:24
 #, php-format
 msgid "Tag Archives : %s"
 msgstr "Archives du Mot-Clef : %s"
 
-#: ../archive.php:32
+#: ../archive.php:31
 #, php-format
 msgid "Author Archives : %s"
 msgstr "Archives de l'auteur : %s"
 
-#: ../archive.php:40
+#: ../archive.php:39
 #, php-format
 msgid "Daily Archives : %s"
 msgstr "Archives du : %s"
 
-#: ../archive.php:43
+#: ../archive.php:42
 #, php-format
 msgid "Monthly Archives : %s"
 msgstr "Archives de : %s"
 
-#: ../archive.php:46
+#: ../archive.php:45
 #, php-format
 msgid "Yearly Archives : %s"
 msgstr "Archives de : %s"
 
-#: ../archive.php:49
+#: ../archive.php:48
 msgid "Archives"
 msgstr "Archives"
 
-#: ../comments.php:31
+#: ../comments.php:30
 msgid "Comments"
 msgstr "Commentaires"
 
-#: ../comments.php:36 ../comments.php:56
+#: ../comments.php:35 ../comments.php:55
 msgid "Comment navigation"
 msgstr "Navigation des commentaires"
 
-#: ../comments.php:37 ../comments.php:57
+#: ../comments.php:36 ../comments.php:56
 msgid "&larr; Older Comments"
 msgstr "&larr; Commentaires précédents"
 
-#: ../comments.php:38 ../comments.php:58
+#: ../comments.php:37 ../comments.php:57
 msgid "Newer Comments &rarr;"
 msgstr "Commentaires suivants &rarr;"
 
-#: ../comments.php:67
+#: ../comments.php:66
 msgid "Comments are closed."
 msgstr "Les commentaires sont fermés."
 
-#: ../comments.php:77
+#: ../comments.php:76
 #, php-format
 msgid ""
 "Logged in as <a href=\"%1$s\">%2$s</a> - <a href=\"%3$s\" title=\"Log out of "
@@ -89,97 +89,97 @@ msgstr ""
 "Connecté en tant que <a href=\"%1$s\">%2$s</a> - <a href=\"%3$s\" title="
 "\"Déconnexion\">Déconnexion</a>"
 
-#: ../comments.php:79
+#: ../comments.php:78
 msgid "Name"
 msgstr "Nom"
 
-#: ../comments.php:81
+#: ../comments.php:80
 msgid "Email"
 msgstr "Email"
 
-#: ../comments.php:83
+#: ../comments.php:82
 msgid "Website"
 msgstr "Site web"
 
-#: ../content-post-in-list.php:17 ../content-post-in-list.php:26
-#: ../content.php:13
+#: ../content-post-in-list.php:16 ../content-post-in-list.php:25
+#: ../content.php:12
 #, php-format
 msgid "Permalink to %s"
 msgstr "Permalien vers %s"
 
-#: ../content-post-in-list.php:36 ../content-single.php:21 ../content.php:25
+#: ../content-post-in-list.php:35 ../content-single.php:20 ../content.php:24
 msgid "In"
 msgstr "Dans "
 
-#: ../content-project-contents-list.php:72
-#: ../content-project-contents-list.php:73 ../inc/mbox/marker-infos.php:100
-#: ../inc/others/template-tags.php:328 ../inc/others/template-tags.php:329
-#: ../sidebar-single-map.php:81 ../sidebar-single-map.php:82
-#: ../tpl-home.php:88 ../tpl-home.php:89
+#: ../content-project-contents-list.php:71
+#: ../content-project-contents-list.php:72 ../inc/mbox/marker-infos.php:99
+#: ../inc/others/template-tags.php:322 ../inc/others/template-tags.php:323
+#: ../sidebar-single-map.php:83 ../sidebar-single-map.php:84
+#: ../tpl-home.php:87 ../tpl-home.php:88
 msgid "See the map"
 msgstr "Voir la carte"
 
-#: ../content-single-map.php:25 ../content-single-marker.php:53
-#: ../inc/cpt/projects.php:20 ../inc/functions-admin.php:135
-#: ../inc/mbox/projects-list.php:16 ../inc/mbox/projects-list.php:17
-#: ../inc/others/custom-listing-columns.php:138
-#: ../inc/others/custom-listing-columns.php:182 ../tpl-home.php:73
+#: ../content-single-map.php:24 ../content-single-marker.php:52
+#: ../inc/cpt/projects.php:20 ../inc/functions-admin.php:134
+#: ../inc/mbox/projects-list.php:15 ../inc/mbox/projects-list.php:16
+#: ../inc/others/custom-listing-columns.php:137
+#: ../inc/others/custom-listing-columns.php:181 ../tpl-home.php:72
 msgid "Project"
 msgstr "Projet"
 
-#: ../content-single-marker.php:37
+#: ../content-single-marker.php:36
 msgid "In the same map"
 msgstr "Dans la même carte"
 
-#: ../content-single-marker.php:41
+#: ../content-single-marker.php:40
 msgid "See this map"
 msgstr "Voir cette carte"
 
-#: ../content-single-marker.php:54
+#: ../content-single-marker.php:53
 msgid "See this project"
 msgstr "Voir ce projet"
 
-#: ../content-single-project.php:24
+#: ../content-single-project.php:23
 msgid "Started on"
 msgstr "Initié le"
 
-#: ../content-single-project.php:37
+#: ../content-single-project.php:36
 msgid "Initiated by"
 msgstr "Initié par"
 
-#: ../content-single-project.php:81
+#: ../content-single-project.php:80
 msgid "Follow this project on"
 msgstr "Suivre ce projet sur"
 
-#: ../content-single-project.php:85
+#: ../content-single-project.php:84
 msgid "Go to the Twitter account dedicated to this project"
 msgstr "Voir le compte Twitter de ce projet"
 
-#: ../content-single-project.php:90
+#: ../content-single-project.php:89
 msgid "Go to the Facebook page dedicated to this project"
 msgstr "Voir la page Facebook de ce projet"
 
-#: ../content-single-project.php:103 ../inc/mbox/project-infos.php:99
+#: ../content-single-project.php:102 ../inc/mbox/project-infos.php:98
 msgid "Attached file"
 msgstr "Fichier attaché"
 
-#: ../export-map.php:103
+#: ../export-map.php:102
 msgid "Sorry but this map is no more shareable"
 msgstr "Désolé, mais cette carte n'est plus exportable"
 
-#: ../footer.php:38
+#: ../footer.php:37
 msgid "Theme created by Labomedia"
 msgstr "Thème créé par Labomedia"
 
-#: ../header.php:59
+#: ../header.php:58
 msgid "Menu"
 msgstr "Menu"
 
-#: ../header.php:60
+#: ../header.php:59
 msgid "Skip to content"
 msgstr "Aller au contenu"
 
-#: ../image.php:24
+#: ../image.php:23
 #, php-format
 msgid ""
 "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
@@ -192,23 +192,23 @@ msgstr ""
 "originale\">%4$s &times; %5$s</a> dans <a href=\"%6$s\" title=\"Retourner "
 "vers %7$s\" rel=\"gallery\">%8$s</a>"
 
-#: ../image.php:35 ../image.php:108 ../inc/js-i18n.php:26
+#: ../image.php:34 ../image.php:107 ../inc/js-i18n.php:25
 msgid "Edit"
 msgstr "Modifier"
 
-#: ../image.php:39
+#: ../image.php:38
 msgid "&larr; Previous"
 msgstr "&larr; Précédents"
 
-#: ../image.php:40
+#: ../image.php:39
 msgid "Next &rarr;"
 msgstr "Suivants &rarr;"
 
-#: ../image.php:94
+#: ../image.php:93
 msgid "Pages:"
 msgstr "Pages :"
 
-#: ../image.php:100
+#: ../image.php:99
 #, php-format
 msgid ""
 "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
@@ -220,7 +220,7 @@ msgstr ""
 "link\" href=\"%s\" title=\"URL de Trackback de votre article\" rel="
 "\"trackback\">URL de Trackback</a>."
 
-#: ../image.php:102
+#: ../image.php:101
 #, php-format
 msgid ""
 "Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
@@ -231,7 +231,7 @@ msgstr ""
 "class=\"trackback-link\" href=\"%s\" title=\"URL de Trackback de votre "
 "article\" rel=\"trackback\">URL de Trackback</a>."
 
-#: ../image.php:104
+#: ../image.php:103
 msgid ""
 "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
 "\" title=\"Post a comment\">post a comment</a>."
@@ -239,18 +239,18 @@ msgstr ""
 "Les Trackbacks sont fermés, mais vous pouvez <a class=\"comment-link\" href="
 "\"#respond\" title=\"Ajouter un commentaire\">ajouter un commentaire</a>."
 
-#: ../image.php:106
+#: ../image.php:105
 msgid "Both comments and trackbacks are currently closed."
 msgstr "Les commentaires et les Trackbacks sont fermés."
 
-#: ../inc/cpt/maps.php:20 ../inc/functions-admin.php:140
-#: ../inc/mbox/marker-infos.php:82
-#: ../inc/others/custom-listing-columns.php:208
+#: ../inc/cpt/maps.php:20 ../inc/functions-admin.php:139
+#: ../inc/mbox/marker-infos.php:81
+#: ../inc/others/custom-listing-columns.php:207
 msgid "Map"
 msgstr "Carte"
 
-#: ../inc/cpt/maps.php:21 ../inc/functions-admin.php:140
-#: ../inc/others/settings.php:36
+#: ../inc/cpt/maps.php:21 ../inc/functions-admin.php:139
+#: ../inc/others/settings.php:35
 msgid "Maps"
 msgstr "Cartes"
 
@@ -335,20 +335,20 @@ msgstr "%s sauvegardé"
 msgid "M j, Y @ G:i"
 msgstr "M j, Y @ G:i"
 
-#: ../inc/cpt/markers.php:20 ../inc/functions-admin.php:145
+#: ../inc/cpt/markers.php:20 ../inc/functions-admin.php:144
 msgid "Marker"
 msgstr "Marker"
 
-#: ../inc/cpt/markers.php:21 ../inc/functions-admin.php:145
-#: ../inc/others/custom-listing-columns.php:183
+#: ../inc/cpt/markers.php:21 ../inc/functions-admin.php:144
+#: ../inc/others/custom-listing-columns.php:182
 msgid "Markers"
 msgstr "Markers"
 
-#: ../inc/cpt/projects.php:21 ../inc/functions-admin.php:135
+#: ../inc/cpt/projects.php:21 ../inc/functions-admin.php:134
 msgid "Projects"
 msgstr "Projets"
 
-#: ../inc/functions-admin-utils.php:65
+#: ../inc/functions-admin-utils.php:64
 #, php-format
 msgid ""
 "%1$s, no default icons markers found : you must have a problem with the "
@@ -357,15 +357,15 @@ msgstr ""
 "%1$s, aucun icône de marker n'a été trouvé : vous devez avoir un souci avec "
 "l'installation de votre thème."
 
-#: ../inc/functions-admin-utils.php:65
+#: ../inc/functions-admin-utils.php:64
 msgid "Warning"
 msgstr "Attention"
 
-#: ../inc/functions-admin-utils.php:74
+#: ../inc/functions-admin-utils.php:73
 msgid "No custom icons found !"
 msgstr "Aucun icône personnalisé n'a été trouvé !"
 
-#: ../inc/functions-admin-utils.php:77
+#: ../inc/functions-admin-utils.php:76
 #, php-format
 msgid ""
 "To add your own markers icons, you should create a directory called %1$s in "
@@ -377,7 +377,7 @@ msgstr ""
 "images. Elles doivent impérativement être au format PNG 24 bits avec "
 "transparence."
 
-#: ../inc/functions-admin-utils.php:80
+#: ../inc/functions-admin-utils.php:79
 #, php-format
 msgid "A good list of free markers icons can be found on the %1$s website."
 msgstr ""
@@ -392,141 +392,141 @@ msgstr "brouillon"
 msgid "private"
 msgstr "privé"
 
-#: ../inc/functions-common.php:123
+#: ../inc/functions-common.php:121
 msgid "Primary Menu"
 msgstr "Menu Primaire"
 
-#: ../inc/functions-common.php:187
+#: ../inc/functions-common.php:184
 msgid "Footer Widgets"
 msgstr "Widgets Pied de page"
 
-#: ../inc/functions-frontend.php:79
+#: ../inc/functions-frontend.php:78
 msgid "more"
 msgstr "lire la suite"
 
-#: ../inc/js-i18n.php:17
+#: ../inc/js-i18n.php:16
 msgid "Choose an image"
 msgstr "Choisir une image"
 
-#: ../inc/js-i18n.php:18
+#: ../inc/js-i18n.php:17
 msgid "Use this image"
 msgstr "Utiliser cette image"
 
-#: ../inc/js-i18n.php:19 ../inc/mbox/marker-infos.php:371
+#: ../inc/js-i18n.php:18 ../inc/mbox/marker-infos.php:370
 msgid "Choose a MP3 file"
 msgstr "Choisir un fichier MP3"
 
-#: ../inc/js-i18n.php:20
+#: ../inc/js-i18n.php:19
 msgid "Use this file"
 msgstr "Utiliser ce fichier"
 
-#: ../inc/js-i18n.php:21
+#: ../inc/js-i18n.php:20
 msgid "Search address"
 msgstr "Chercher l'adresse"
 
-#: ../inc/js-i18n.php:22
+#: ../inc/js-i18n.php:21
 msgid "Type something..."
 msgstr "Tapper quelquechose..."
 
-#: ../inc/js-i18n.php:23
+#: ../inc/js-i18n.php:22
 msgid "Results for your search"
 msgstr "Résultats de votre recherche"
 
-#: ../inc/js-i18n.php:24
+#: ../inc/js-i18n.php:23
 msgid "No results found. Try to be more precise or try different keywords."
 msgstr ""
 "Aucun résultat trouvé. Essayez d'être plus précis ou de tenter d'autres mots-"
 "clefs."
 
-#: ../inc/js-i18n.php:25
+#: ../inc/js-i18n.php:24
 msgid "Center marker here"
 msgstr "Centrer le marker ici"
 
-#: ../inc/js-i18n.php:27
+#: ../inc/js-i18n.php:26
 msgid "More"
 msgstr "Lire la suite"
 
-#: ../inc/js-i18n.php:28
+#: ../inc/js-i18n.php:27
 msgid "Marker icon"
 msgstr "Icône du marker"
 
-#: ../inc/js-i18n.php:29
+#: ../inc/js-i18n.php:28
 msgid "Markers Index"
 msgstr "Index des Markers"
 
-#: ../inc/js-i18n.php:30
+#: ../inc/js-i18n.php:29
 msgid "Click to open it on map"
 msgstr "Cliquer pour l'ouvrir sur la carte"
 
-#: ../inc/js-i18n.php:31
+#: ../inc/js-i18n.php:30
 msgid "Share"
 msgstr "Partager"
 
-#: ../inc/js-i18n.php:32
+#: ../inc/js-i18n.php:31
 msgid "Embed map (iframe)"
 msgstr "Intégrer la carte (iframe)"
 
-#: ../inc/js-i18n.php:33
+#: ../inc/js-i18n.php:32
 msgid "Map's height (pixels)"
 msgstr "Hauteur de la carte (pixels)"
 
-#: ../inc/js-i18n.php:34
+#: ../inc/js-i18n.php:33
 msgid "Copy / Paste this HTML code"
 msgstr "Copier / Coller ce code HTML"
 
-#: ../inc/mbox/map-infos.php:15
+#: ../inc/mbox/map-infos.php:14
 msgid "Infos"
 msgstr "Infos"
 
-#: ../inc/mbox/map-infos.php:45
+#: ../inc/mbox/map-infos.php:44
 msgid "Choose a tiles provider :"
 msgstr "Choisir un fournisseur de dalles :"
 
-#: ../inc/mbox/map-infos.php:68
+#: ../inc/mbox/map-infos.php:67
 msgid "(Save this map to update the preview)"
 msgstr "(Sauvez cette carte pour mettre à jour la prévisualisation)"
 
-#: ../inc/mbox/map-infos.php:80
+#: ../inc/mbox/map-infos.php:79
 msgid "Export"
 msgstr "Exporter"
 
-#: ../inc/mbox/map-infos.php:86
+#: ../inc/mbox/map-infos.php:85
 msgid "Allow sharing this map (iframe)"
 msgstr "Autoriser le partage de cette carte (iframe)"
 
-#: ../inc/mbox/map-preview.php:15
+#: ../inc/mbox/map-preview.php:14
 msgid "Map Preview"
 msgstr "Prévisualisation de la carte"
 
-#: ../inc/mbox/map-preview.php:45
+#: ../inc/mbox/map-preview.php:44
 msgid "Add markers in this map"
 msgstr "Ajouter des markers dans cette carte"
 
-#: ../inc/mbox/map-preview.php:46
+#: ../inc/mbox/map-preview.php:45
 msgid "Save this map before clicking"
 msgstr "Sauvez cette carte avant de cliquer"
 
-#: ../inc/mbox/marker-infos.php:16
+#: ../inc/mbox/marker-infos.php:15
 msgid "Marker Informations"
 msgstr "Informations du Marker"
 
-#: ../inc/mbox/marker-infos.php:59 ../inc/others/settings.php:70
+#: ../inc/mbox/marker-infos.php:58 ../inc/others/settings.php:69
 msgid "General"
 msgstr "Général"
 
-#: ../inc/mbox/marker-infos.php:66 ../inc/mbox/project-infos.php:47
+#: ../inc/mbox/marker-infos.php:65 ../inc/mbox/project-infos.php:46
 msgid "Field name"
 msgstr "Nom du champ"
 
-#: ../inc/mbox/marker-infos.php:70 ../inc/mbox/project-infos.php:51
+#: ../inc/mbox/marker-infos.php:69 ../inc/mbox/project-infos.php:50
 msgid "Field value"
 msgstr "Valeur du champ"
 
-#: ../inc/mbox/marker-infos.php:99
+#: ../inc/mbox/marker-infos.php:98
 msgid "Edit the map"
 msgstr "Modifier la carte"
 
-#: ../inc/mbox/marker-infos.php:107
+#: ../inc/mbox/marker-infos.php:106
 #, php-format
 msgid ""
 "No map found. If you want to add this marker to a map, <a href=\"%1$s\">you "
@@ -537,32 +537,32 @@ msgstr ""
 "devez d'abord <a href=\"%1$s\">en créer une </a> (n'oubliez pas de sauver ce "
 "contenu avant de cliquer sur ce lien)."
 
-#: ../inc/mbox/marker-infos.php:129
-#: ../inc/others/custom-listing-columns.php:205
+#: ../inc/mbox/marker-infos.php:128
+#: ../inc/others/custom-listing-columns.php:204
 msgid "Icon"
 msgstr "Icône"
 
-#: ../inc/mbox/marker-infos.php:143
+#: ../inc/mbox/marker-infos.php:142
 msgid "change"
 msgstr "changer"
 
-#: ../inc/mbox/marker-infos.php:150
+#: ../inc/mbox/marker-infos.php:149
 msgid "Default icons"
 msgstr "Icônes par défaut"
 
-#: ../inc/mbox/marker-infos.php:152
+#: ../inc/mbox/marker-infos.php:151
 msgid "Custom icons"
 msgstr "Icônes personnalisés"
 
-#: ../inc/mbox/marker-infos.php:160
+#: ../inc/mbox/marker-infos.php:159
 msgid "Loading"
 msgstr "Chargement"
 
-#: ../inc/mbox/marker-infos.php:176
+#: ../inc/mbox/marker-infos.php:175
 msgid "In the Popup"
 msgstr "Dans la bulle"
 
-#: ../inc/mbox/marker-infos.php:179
+#: ../inc/mbox/marker-infos.php:178
 #, php-format
 msgid ""
 "%1$s Note %2$s you can drag an drop created contents for changing display "
@@ -573,87 +573,87 @@ msgstr ""
 "d'apparition dans la bulle : ils seront affichés les uns au dessus des "
 "autres, en partant de celui de gauche."
 
-#: ../inc/mbox/marker-infos.php:192
+#: ../inc/mbox/marker-infos.php:191
 msgid "Text"
 msgstr "Texte"
 
-#: ../inc/mbox/marker-infos.php:193
+#: ../inc/mbox/marker-infos.php:192
 msgid "Image"
 msgstr "Image"
 
-#: ../inc/mbox/marker-infos.php:194
+#: ../inc/mbox/marker-infos.php:193
 msgid "Video"
 msgstr "Vidéo"
 
-#: ../inc/mbox/marker-infos.php:195
+#: ../inc/mbox/marker-infos.php:194
 msgid "Audio"
 msgstr "Audio"
 
-#: ../inc/mbox/marker-infos.php:210 ../inc/mbox/marker-infos.php:228
+#: ../inc/mbox/marker-infos.php:209 ../inc/mbox/marker-infos.php:227
 msgid "Delete"
 msgstr "Supprimer"
 
-#: ../inc/mbox/marker-infos.php:244
+#: ../inc/mbox/marker-infos.php:243
 msgid "Add a Text"
 msgstr "Ajouter un Texte"
 
-#: ../inc/mbox/marker-infos.php:245
+#: ../inc/mbox/marker-infos.php:244
 msgid "Add a <strong>Text</strong>"
 msgstr "Ajouter un <strong>Texte</strong>"
 
-#: ../inc/mbox/marker-infos.php:250
+#: ../inc/mbox/marker-infos.php:249
 msgid "Add an Image"
 msgstr "Ajouter une Image"
 
-#: ../inc/mbox/marker-infos.php:251
+#: ../inc/mbox/marker-infos.php:250
 msgid "Add an <strong>Image</strong>"
 msgstr "Ajouter une <strong>Image</strong>"
 
-#: ../inc/mbox/marker-infos.php:256
+#: ../inc/mbox/marker-infos.php:255
 msgid "Add a Video"
 msgstr "Ajouter une Vidéo"
 
-#: ../inc/mbox/marker-infos.php:257
+#: ../inc/mbox/marker-infos.php:256
 msgid "Add a <strong>Video</strong>"
 msgstr "Ajouter une <strong>Vidéo</strong>"
 
-#: ../inc/mbox/marker-infos.php:262
+#: ../inc/mbox/marker-infos.php:261
 msgid "Add an Audio"
 msgstr "Ajouter de l'Audio"
 
-#: ../inc/mbox/marker-infos.php:263
+#: ../inc/mbox/marker-infos.php:262
 msgid "Add an <strong>Audio</strong>"
 msgstr "Ajouter de l'<strong>Audio</strong>"
 
-#: ../inc/mbox/marker-infos.php:311
+#: ../inc/mbox/marker-infos.php:310
 msgid "Choose an Image"
 msgstr "Choisir une image"
 
-#: ../inc/mbox/marker-infos.php:314
+#: ../inc/mbox/marker-infos.php:313
 msgid "Remove image"
 msgstr "Retirer l'image"
 
-#: ../inc/mbox/marker-infos.php:323
+#: ../inc/mbox/marker-infos.php:322
 msgid "URL of the video"
 msgstr "URL de la vidéo"
 
-#: ../inc/mbox/marker-infos.php:337
+#: ../inc/mbox/marker-infos.php:336
 msgid "Remove video"
 msgstr "Retirer la vidéo"
 
-#: ../inc/mbox/marker-infos.php:374
+#: ../inc/mbox/marker-infos.php:373
 msgid "Remove audio file"
 msgstr "Retirer le fichier audio"
 
-#: ../inc/mbox/marker-infos.php:385
+#: ../inc/mbox/marker-infos.php:384
 msgid "Geolocation"
 msgstr "Géolocalisation"
 
-#: ../inc/mbox/marker-infos.php:390
+#: ../inc/mbox/marker-infos.php:389
 msgid "Drag the marker to the desired position."
 msgstr "Déplacer le marker à la position souhaitée."
 
-#: ../inc/mbox/marker-infos.php:391
+#: ../inc/mbox/marker-infos.php:390
 msgid ""
 "You can zoom and pan to the desired location and bring back the marker there "
 "by clicking the button \"center marker here\"."
@@ -661,7 +661,7 @@ msgstr ""
 "Vous pouvez boomer et déplacer la carte à la position souhaitée, et ramener "
 "le Marker au centre en cliquant sur le bouton \"Centrer le Marker ici\"."
 
-#: ../inc/mbox/marker-infos.php:392
+#: ../inc/mbox/marker-infos.php:391
 msgid ""
 "You can also search for a postal address (powered by <a href=\"http://"
 "nominatim.openstreetmap.org/\" target=\"_blank\">OpenStreetMap Nominatim</"
@@ -673,52 +673,52 @@ msgstr ""
 "Nominatim</a>). Si vous ne trouvez pas l'adresse, essayez d'être plus précis "
 "ou d'essayer différents mots-clefs."
 
-#: ../inc/mbox/project-infos.php:16
+#: ../inc/mbox/project-infos.php:15
 msgid "Additionnal Informations"
 msgstr "Informations complémentaires"
 
-#: ../inc/mbox/project-infos.php:59
+#: ../inc/mbox/project-infos.php:58
 msgid "Project initiator"
 msgstr "Initiateur du projet"
 
-#: ../inc/mbox/project-infos.php:67
+#: ../inc/mbox/project-infos.php:66
 msgid "Initiator website URL"
 msgstr "Site web de l'initiateur du projet"
 
-#: ../inc/mbox/project-infos.php:75
+#: ../inc/mbox/project-infos.php:74
 msgid "Project start date"
 msgstr "Date de début du projet"
 
-#: ../inc/mbox/project-infos.php:83
+#: ../inc/mbox/project-infos.php:82
 msgid "Project's Twitter URL"
 msgstr "URL Twitter du projet"
 
-#: ../inc/mbox/project-infos.php:91
+#: ../inc/mbox/project-infos.php:90
 msgid "Project's Facebook URL"
 msgstr "URL Facebook du projet"
 
-#: ../inc/mbox/project-infos.php:112
+#: ../inc/mbox/project-infos.php:111
 msgid "Choose a file"
 msgstr "Choisir un fichier"
 
-#: ../inc/mbox/project-infos.php:115
+#: ../inc/mbox/project-infos.php:114
 msgid "Remove file"
 msgstr "Supprimer le fichier"
 
-#: ../inc/mbox/projects-list.php:39
+#: ../inc/mbox/projects-list.php:38
 msgid "this map"
 msgstr "cette carte"
 
-#: ../inc/mbox/projects-list.php:39
+#: ../inc/mbox/projects-list.php:38
 msgid "this post"
 msgstr "cet article"
 
-#: ../inc/mbox/projects-list.php:44
+#: ../inc/mbox/projects-list.php:43
 #, php-format
 msgid "Attach %1$s to a project (optionnal)"
 msgstr "Attacher ce %1$s à un projet (optionnel)"
 
-#: ../inc/mbox/projects-list.php:58
+#: ../inc/mbox/projects-list.php:57
 #, php-format
 msgid ""
 "No project found. You can optionnaly <a href=\"%1$s\">create a new project</"
@@ -729,46 +729,46 @@ msgstr ""
 "\">créer un nouveau projet</a> pour y mettre votre %2$s (n'oubliez pas de "
 "sauvegarder ce contenu avant de cliquer sur ce lien)"
 
-#: ../inc/others/admin-menus.php:16 ../inc/others/admin-menus.php:25
-#: ../inc/others/admin-menus.php:41
+#: ../inc/others/admin-menus.php:15 ../inc/others/admin-menus.php:24
+#: ../inc/others/admin-menus.php:40
 msgid "Theme settings"
 msgstr "Paramètres du thème"
 
-#: ../inc/others/admin-menus.php:16
+#: ../inc/others/admin-menus.php:15
 msgid "GeoProjects"
 msgstr "GeoProjects"
 
-#: ../inc/others/admin-menus.php:19
+#: ../inc/others/admin-menus.php:18
 msgid "Help - Credits"
 msgstr "Aide - Crédits"
 
-#: ../inc/others/admin-menus.php:53
+#: ../inc/others/admin-menus.php:52
 msgid "Save changes"
 msgstr "Sauver les changements"
 
-#: ../inc/others/custom-listing-columns.php:59
+#: ../inc/others/custom-listing-columns.php:58
 msgid "map"
 msgstr "carte"
 
-#: ../inc/others/custom-listing-columns.php:60
+#: ../inc/others/custom-listing-columns.php:59
 msgid "post"
 msgstr "article"
 
-#: ../inc/others/custom-listing-columns.php:160
+#: ../inc/others/custom-listing-columns.php:159
 msgid "Totals"
 msgstr "Totaux"
 
-#: ../inc/others/custom-listing-filters.php:37
-#: ../inc/others/custom-listing-filters.php:48
+#: ../inc/others/custom-listing-filters.php:36
+#: ../inc/others/custom-listing-filters.php:47
 msgid "Orphan Maps"
 msgstr "Cartes orphelines"
 
-#: ../inc/others/custom-listing-filters.php:104
-#: ../inc/others/custom-listing-filters.php:115
+#: ../inc/others/custom-listing-filters.php:103
+#: ../inc/others/custom-listing-filters.php:114
 msgid "Orphan Markers"
 msgstr "Markers orphelins"
 
-#: ../inc/others/extras.php:65
+#: ../inc/others/extras.php:62
 #, php-format
 msgid "Page %s"
 msgstr "Page %s"
@@ -886,74 +886,74 @@ msgstr "Ce thème Wordpress a été développé par %1$s et financé par %2$s."
 #: ../inc/others/help.php:77
 #, php-format
 msgid ""
-"Released under the GPL v.3 licensce, you can download this theme on %1$s. "
+"Released under the GPL v.2 license, you can download this theme on %1$s. "
 "Please, feel free to report bugs and submit fixes or new features !"
 msgstr ""
-"Distribué sous Licence GPL v.3, vous pouvez télécharger ce thème sur %1$s. "
+"Distribué sous Licence GPL v.2, vous pouvez télécharger ce thème sur %1$s. "
 "N'hésitez pas à reporter tout bug et proposer des corrections ou de "
 "nouvelles fonctionnalités !"
 
-#: ../inc/others/settings.php:12
+#: ../inc/others/settings.php:11
 msgid "You should not access to this file directly"
 msgstr "Vous ne devriez pas accéder à ce fichier directement"
 
-#: ../inc/others/settings.php:25
+#: ../inc/others/settings.php:24
 msgid "Design"
 msgstr "Design"
 
-#: ../inc/others/settings.php:28
+#: ../inc/others/settings.php:27
 msgid "Primary Color"
 msgstr "Couleur Primaire"
 
-#: ../inc/others/settings.php:31
+#: ../inc/others/settings.php:30
 msgid "Secondary Color"
 msgstr "Couleur Secondaire"
 
-#: ../inc/others/settings.php:39
+#: ../inc/others/settings.php:38
 msgid "Cloudmade API key"
 msgstr "Clef d'API Cloudmade"
 
-#: ../inc/others/settings.php:42
+#: ../inc/others/settings.php:41
 msgid "Maps default tiles provider"
 msgstr "Fournisseur de dalles par défaut des cartes"
 
-#: ../inc/others/settings.php:45
+#: ../inc/others/settings.php:44
 msgid "Big map default tiles provider"
 msgstr "Fournisseur de dalles par défaut de la grande carte"
 
-#: ../inc/others/settings.php:48
+#: ../inc/others/settings.php:47
 msgid "Maps default center and zoom"
 msgstr "Centre par défaut des cartes"
 
-#: ../inc/others/settings.php:51
+#: ../inc/others/settings.php:50
 msgid "Export maps"
 msgstr "Exporter les cartes"
 
-#: ../inc/others/settings.php:56
+#: ../inc/others/settings.php:55
 msgid "Social"
 msgstr "Social"
 
-#: ../inc/others/settings.php:59 ../inc/others/settings.php:65
+#: ../inc/others/settings.php:58 ../inc/others/settings.php:64
 msgid "Twitter URL"
 msgstr "URL Twitter du projet"
 
-#: ../inc/others/settings.php:62
+#: ../inc/others/settings.php:61
 msgid "Facebook URL"
 msgstr "URL Facebook du projet"
 
-#: ../inc/others/settings.php:73
+#: ../inc/others/settings.php:72
 msgid "Number of maps on front page"
 msgstr "Nombre de cartes affichées sur la page d'accueil"
 
-#: ../inc/others/settings.php:76
+#: ../inc/others/settings.php:75
 msgid "When trashing a project"
 msgstr "Lorsqu'un projet est supprimé"
 
-#: ../inc/others/settings.php:79
+#: ../inc/others/settings.php:78
 msgid "When trashing a map"
 msgstr "Lorsqu'une carte est supprimée"
 
-#: ../inc/others/settings.php:139
+#: ../inc/others/settings.php:138
 msgid ""
 "If you want to use Cloudmade tiles provider, you need to <a href=\"http://"
 "cloudmade.com\" target=\"_blank\">register on the Cloudmade website</a> and "
@@ -963,7 +963,7 @@ msgstr ""
 "<a href=\"http://cloudmade.com\" target=\"_blank\">vous enregistrer sur le "
 "site de Cloudmade</a> afin d'obtenir une clef d'API."
 
-#: ../inc/others/settings.php:173
+#: ../inc/others/settings.php:172
 msgid ""
 "You can choose a Cloudmade Style ID in <a href=\"http://maps.cloudmade.com/"
 "editor\" target=\"_blank\">the CloudMade style Editor</a> : this is the "
@@ -973,7 +973,7 @@ msgstr ""
 "cloudmade.com/editor\" target=\"_blank\">l'éditeur Cloudmade</a> : c'est le "
 "nombre en bas à droite de chaque style de carte."
 
-#: ../inc/others/settings.php:174
+#: ../inc/others/settings.php:173
 msgid ""
 "You can also create your own style by choosing a style in the list and click "
 "the \"Clone Style\" button at the bottom right."
@@ -982,15 +982,15 @@ msgstr ""
 "existants, puis en cliquant sur le bouton \"Clone Style\" en bas à droite de "
 "l'écran."
 
-#: ../inc/others/settings.php:208
+#: ../inc/others/settings.php:207
 msgid "See above for explanation about Style ID."
 msgstr "Voir ci-dessus pour les explications à propos du Numéro de Style."
 
-#: ../inc/others/settings.php:227
+#: ../inc/others/settings.php:226
 msgid "Drag and zoom to the desired default position."
 msgstr "Déplacer le marker à la position souhaitée."
 
-#: ../inc/others/settings.php:228
+#: ../inc/others/settings.php:227
 msgid ""
 "This is the default center and zoom when creating a marker or when a map has "
 "no markers."
@@ -998,11 +998,11 @@ msgstr ""
 "C'est le centre de carte par défaut lors de la création d'un Marker, ou "
 "lorsqu'une carte n'en contient aucun."
 
-#: ../inc/others/settings.php:256
+#: ../inc/others/settings.php:255
 msgid "Maps are shareable by default"
 msgstr "Les cartes sont partageables par défaut."
 
-#: ../inc/others/settings.php:259
+#: ../inc/others/settings.php:258
 msgid ""
 "If you change this setting, it will only be applied to new maps. You can "
 "change this setting in each map's form."
@@ -1010,18 +1010,18 @@ msgstr ""
 "Si vous changez ce paramètre, il ne sera appliqué qu'aux nouvelles cartes. "
 "Vous pouvez modifier ce paramètre pour chaque carte, dans son formulaire."
 
-#: ../inc/others/settings.php:348
+#: ../inc/others/settings.php:347
 msgid ""
 "Keep maps and posts (they won't belong to any project until you edit them)"
 msgstr ""
 "Conserver les cartes et les articles (ils n'appartiendront à aucun projet "
 "tant que vous ne les aurez pas modifié)"
 
-#: ../inc/others/settings.php:355
+#: ../inc/others/settings.php:354
 msgid "Send maps, markers and posts to trash"
 msgstr "Envoyer les cartes, markers et articles à la corbeille"
 
-#: ../inc/others/settings.php:359
+#: ../inc/others/settings.php:358
 msgid ""
 "Note that if you choose to send contents to trash, and want to restore "
 "them : the maps and posts won't belong to any project, and the markers won't "
@@ -1032,17 +1032,17 @@ msgstr ""
 "n'appartiendront plus à aucun projet et les markers n'appartiendront plus à "
 "aucune carte."
 
-#: ../inc/others/settings.php:376
+#: ../inc/others/settings.php:375
 msgid "Keep markers (they won't belong to any map until you edit them)"
 msgstr ""
 "Conserver les markers (ils n'appartiendront à aucune tant que vous ne les "
 "aurez pas modifié)"
 
-#: ../inc/others/settings.php:383
+#: ../inc/others/settings.php:382
 msgid "Send map's markers to trash"
 msgstr "Envoyer les markers des cartes à la corbeille"
 
-#: ../inc/others/settings.php:387
+#: ../inc/others/settings.php:386
 msgid ""
 "Note that if you choose to send markers to trash, they won't belong to any "
 "map if you restore them."
@@ -1050,14 +1050,14 @@ msgstr ""
 "Notez que si vous choisissez d'envoyer les markers à la corbeille, ils "
 "n'appartiendront à aucune carte si vous les restaurez par la suite."
 
-#: ../inc/others/settings.php:441
+#: ../inc/others/settings.php:440
 msgid ""
 "The default tiles provider was weird. It has been reset to the default value."
 msgstr ""
 "Le fournisseur de dalles par défaut des cartes était bizarre. Il a été "
 "réinitialisé."
 
-#: ../inc/others/settings.php:456
+#: ../inc/others/settings.php:455
 msgid ""
 "The default tiles provider for Big map was weird. It has been reset to the "
 "default value."
@@ -1065,15 +1065,15 @@ msgstr ""
 "Le fournisseur de dalles par défaut de la grande carte était bizarre. Il a "
 "été réinitialisé."
 
-#: ../inc/others/settings.php:482
+#: ../inc/others/settings.php:481
 msgid "Settings saved."
 msgstr "Paramètres sauvegardés."
 
-#: ../inc/others/settings.php:483
+#: ../inc/others/settings.php:482
 msgid "Important note"
 msgstr "Note importante"
 
-#: ../inc/others/settings.php:484
+#: ../inc/others/settings.php:483
 msgid ""
 "Some of your maps were using Cloudmade as tiles provider, and you choose to "
 "delete your Cloudmade API key. In consequence, these maps has been reset to "
@@ -1084,7 +1084,7 @@ msgstr ""
 "conséquence, ces cartes utiliseront désormais le fournisseur de cartes par "
 "défaut."
 
-#: ../inc/others/settings.php:496
+#: ../inc/others/settings.php:495
 msgid ""
 "The Cloudmade API key is not valid. It must contain only alphanumeric "
 "characters. The value has been reset to the default value."
@@ -1092,7 +1092,7 @@ msgstr ""
 "La clef d'API Cloudmade est invalide. Elle ne doit contenir que des "
 "caractères alphanumériques, et a donc été réinitialisée."
 
-#: ../inc/others/settings.php:506
+#: ../inc/others/settings.php:505
 msgid ""
 "The Cloudmade API key is not valid. It must contain at least 32 characters. "
 "The value has been reset to the default value."
@@ -1100,7 +1100,7 @@ msgstr ""
 "La clef d'API Cloudmade est invalide. Elle doit être constituée de 32 "
 "caractères, et a donc été réinitialisée."
 
-#: ../inc/others/settings.php:517
+#: ../inc/others/settings.php:516
 msgid ""
 "If you want to set the tiles provider to CloudMade for maps, you must give a "
 "Cloudmade API Key. The tiles provider has been reset to the default value."
@@ -1108,7 +1108,7 @@ msgstr ""
 "Si vous souhaitez utiliser Cloudmade comme fournisseur de dalles par défaut "
 "pour vos cartes, vous devez fournir une clef d'API."
 
-#: ../inc/others/settings.php:528
+#: ../inc/others/settings.php:527
 msgid ""
 "If you want to set the tiles provider for the big map to CloudMade, you must "
 "give a Cloudmade API Key. The tiles provider has been reset to the default "
@@ -1117,7 +1117,7 @@ msgstr ""
 "Si vous souhaitez utiliser Cloudmade comme fournisseur de dalles par défaut "
 "pour la grande carte, vous devez fournir une clef d'API."
 
-#: ../inc/others/settings.php:544
+#: ../inc/others/settings.php:543
 msgid ""
 "The default CloudMade Style for maps must be an integer. It has been reset "
 "to the default value."
@@ -1125,7 +1125,7 @@ msgstr ""
 "Le style Cloudmade par défaut de vos cartes doit être un entier. Il a été "
 "réinitialisé."
 
-#: ../inc/others/settings.php:565
+#: ../inc/others/settings.php:564
 msgid ""
 "The default CloudMade Style for the Big map must be an integer. It has been "
 "reset to the default value."
@@ -1133,107 +1133,135 @@ msgstr ""
 "Le style Cloudmade par défaut de la grande carte doit être un entier. Il a "
 "été réinitialisé."
 
-#: ../inc/others/settings.php:610
+#: ../inc/others/settings.php:609
 msgid ""
 "The number of maps on front must be an integer. It has been reset to the "
 "default value."
 msgstr ""
 "Le nombre de cartes affichés sur la page d'accueil doit être un entier."
 
-#: ../inc/others/template-tags.php:56
+#: ../inc/others/template-tags.php:54
 msgid "Post navigation"
 msgstr "Navigation des artivles"
 
-#: ../inc/others/template-tags.php:66
+#: ../inc/others/template-tags.php:64
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Anciens articles"
 
-#: ../inc/others/template-tags.php:70
+#: ../inc/others/template-tags.php:68
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Nouveaux articles <span class=\"meta-nav\">&rarr;</span>"
 
-#: ../inc/others/template-tags.php:95
+#: ../inc/others/template-tags.php:92
 msgid "Pingback:"
 msgstr "Pingback :"
 
-#: ../inc/others/template-tags.php:95 ../inc/others/template-tags.php:117
+#: ../inc/others/template-tags.php:92 ../inc/others/template-tags.php:114
 msgid "(Edit)"
 msgstr "(Modifier)"
 
-#: ../inc/others/template-tags.php:105
+#: ../inc/others/template-tags.php:102
 #, php-format
 msgid "%s <span class=\"says\">says:</span>"
 msgstr "%s <span class=\"says\">a dit :</span>"
 
-#: ../inc/others/template-tags.php:108
+#: ../inc/others/template-tags.php:105
 msgid "Your comment is awaiting moderation."
 msgstr "Votre commentaire est en attente de modération."
 
 #. translators: 1: date, 2: time
-#: ../inc/others/template-tags.php:115
+#: ../inc/others/template-tags.php:112
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s à %2$s"
 
-#: ../inc/others/template-tags.php:142
+#: ../inc/others/template-tags.php:138
 msgid "by"
 msgstr "par"
 
-#: ../inc/others/template-tags.php:212
+#: ../inc/others/template-tags.php:206
 msgid "Projects list"
 msgstr "Liste des Projets"
 
-#: ../inc/others/template-tags.php:240 ../inc/others/template-tags.php:248
-#: ../inc/others/template-tags.php:256
+#: ../inc/others/template-tags.php:234 ../inc/others/template-tags.php:242
+#: ../inc/others/template-tags.php:250
 msgid "Click to see all projects"
 msgstr "Cliquer pour voir tous les projets"
 
-#: ../inc/others/template-tags.php:241 ../inc/others/template-tags.php:249
-#: ../inc/others/template-tags.php:257
+#: ../inc/others/template-tags.php:235 ../inc/others/template-tags.php:243
+#: ../inc/others/template-tags.php:251
 #, php-format
 msgid "%1$d more projects"
 msgstr "%1$d projets supplémentaires"
 
-#: ../inc/others/template-tags.php:298
+#: ../inc/others/template-tags.php:292
 msgid "Last Maps"
 msgstr "Dernières Cartes"
 
-#: ../inc/others/widget-posts-in-category.php:17
+#: ../inc/others/template-tags.php:386
+msgid "Youtube"
+msgstr "qYoutube"
+
+#: ../inc/others/template-tags.php:387
+msgid "See our Youtube"
+msgstr "Voir notre chaine Youtube"
+
+#: ../inc/others/template-tags.php:393
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../inc/others/template-tags.php:394
+msgid "See our Facebook page"
+msgstr "Voir notre page Facebook"
+
+#: ../inc/others/template-tags.php:400
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../inc/others/template-tags.php:401
+msgid "See our Twitter feed"
+msgstr "Voir notre flux Twitter"
+
+#: ../inc/others/template-tags.php:410 ../inc/others/template-tags.php:412
+msgid "RSS Feed"
+msgstr "FLux RSS"
+
+#: ../inc/others/widget-posts-in-category.php:16
 msgid "Recents Posts in a category"
 msgstr "Articles récents d'une catégorie"
 
-#: ../inc/others/widget-posts-in-category.php:19
+#: ../inc/others/widget-posts-in-category.php:18
 msgid "Display the titles of the recents posts in the choosen category"
 msgstr "Affiche les titres des articles récents d'une catégorie donnée"
 
-#: ../inc/others/widget-posts-in-category.php:46
+#: ../inc/others/widget-posts-in-category.php:45
 msgid "Click to see this post"
 msgstr "Cliquer pour voir cet article"
 
+#: ../inc/others/widget-posts-in-category.php:55
 #: ../inc/others/widget-posts-in-category.php:56
-#: ../inc/others/widget-posts-in-category.php:57
 msgid "See all"
 msgstr "Voir tous"
 
-#: ../inc/others/widget-posts-in-category.php:85
+#: ../inc/others/widget-posts-in-category.php:84
 msgid "Category"
 msgstr "Catégorie"
 
-#: ../inc/others/widget-posts-in-category.php:102
+#: ../inc/others/widget-posts-in-category.php:101
 msgid "Number of Posts max"
 msgstr "Nombre maximum d'articles"
 
-#: ../no-results.php:14
+#: ../no-results.php:13
 msgid "Nothing Found"
 msgstr "Rien n'a été trouvé"
 
-#: ../no-results.php:20
+#: ../no-results.php:19
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Prêt à publier votre 1er article ? <a href=\"%1$s\">C'est par ici</a>."
 
-#: ../no-results.php:24
+#: ../no-results.php:23
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
@@ -1241,19 +1269,19 @@ msgstr ""
 "Désolé, mais rien ne correspond à votre recherche. Essayez avec différents "
 "mots-clefs."
 
-#: ../no-results.php:29
+#: ../no-results.php:28
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
 "Il semble que nous ne soyons pas en mesure de trouver ce que vous cherchez."
 
-#: ../search.php:17
+#: ../search.php:16
 #, php-format
 msgid "Search Results for: %s"
 msgstr "Résultats de recherche pour : %s"
 
-#: ../searchform.php:10
+#: ../searchform.php:9
 msgid "Search"
 msgstr "Chercher"
 
@@ -1261,11 +1289,11 @@ msgstr "Chercher"
 msgid "In the same Project"
 msgstr "Dans le même Projet"
 
-#: ../tpl-home.php:34
+#: ../tpl-home.php:33
 msgid "Last maps"
 msgstr "Dernières Cartes"
 
-#: ../tpl-home.php:142
+#: ../tpl-home.php:141
 msgid "You should create at least 1 map for seeing it here."
 msgstr "Vous devriez créer au moins 1 carte pour la voir ici."
 
