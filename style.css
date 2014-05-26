@@ -190,6 +190,7 @@ sub {
 
 img {
   border: 0;
+  vertical-align:middle;
 }
 
 /**
@@ -471,6 +472,7 @@ a {text-decoration:none}
 /* Responsive images/embeds */
 
 .entry-content img,
+.entry-content figure,
 .comment-content img,
 .widget img,
 .map-content img,
@@ -539,21 +541,36 @@ img.alignnone {
     margin: 5px 0;
 }
 
+.gallery:before,
+.gallery:after {
+    content: " ";
+    display: table;
+}
+.gallery:after {
+    clear: both;
+}
+.gallery {
+    *zoom: 1;
+}
+.gallery figure {
+    float:left;
+    margin:0; padding:8px;
+}
+
 .wp-caption .wp-caption-text,
 .entry-caption,
 .gallery-caption {
     margin:0 10px 5px 0;
     padding:5px 8px;
-    font-size: 14px;
-    line-height:22px;
+    font-size: 13px;
+    line-height:20px;
     font-style: italic;
     font-weight: 300;
     color: #777;
     text-align:center;
 }
-
-.gallery-icon {padding:0 8px}
-.gallery-icon img {border:none !important}
+.gallery-icon {text-align:center}
+.gallery-icon img {display:inline-block; border:none !important}
 .gallery-caption {margin:0}
 
 img.wp-smiley,
@@ -929,6 +946,38 @@ article.type-markers                    {margin:0 auto; max-width:800px; backgro
 
 
 /* ---------------------
+  Width <= 370px
+--------------------- */
+
+@media screen and (max-width: 370px) {
+    
+    .gallery figure {
+        width:50%;
+    }
+    .gallery figure:nth-child(2n+1) {
+        clear:left;
+    }
+
+}
+
+
+/* ---------------------
+  371px <= Width <= 560px
+--------------------- */
+
+@media screen and (min-width: 371px) and (max-width: 560px) {
+    
+    .gallery figure {
+        width:33.333333%;
+    }
+    .gallery figure:nth-child(3n+1) {
+        clear:left;
+    }
+
+}
+
+
+/* ---------------------
   550px <= Width
 --------------------- */
 
@@ -997,6 +1046,22 @@ article.type-markers                    {margin:0 auto; max-width:800px; backgro
     /* Sidebars */
 
     .side-same-project-post p               {line-height:24px}
+
+}
+
+
+/* ---------------------
+  561px <= Width
+--------------------- */
+
+@media screen and (min-width: 561px) {
+    
+    .gallery figure {
+        width:25%;
+    }
+    .gallery figure:nth-child(4n+1) {
+        clear:left;
+    }
 
 }
 
