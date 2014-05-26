@@ -16,11 +16,11 @@
 		<meta name="viewport" content="width=device-width">
 		<meta name="author" content="Nicolas Derambure">
 
-		<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>?v=0.1.1">
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>?v=0.1.2">
 
 		<?php gp_the_css_for_custom_colors(); ?>
 
-		<!-- <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico?v=0.1.1" /> -->
+		<!-- <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico?v=0.1.2" /> -->
   
 		<?php /* For iPhone 4 with high-resolution Retina display */ ?>
 		<!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png"> -->
