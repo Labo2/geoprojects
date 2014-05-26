@@ -24,10 +24,10 @@ function gp_register_settings() {
 	add_settings_section( 'gp_settings_section_design', __( 'Design', 'lang_geoprojects' ), 'gp_settings_section_design_text', 'gp_theme_settings' );
 
 	// Field : Title Color
-	add_settings_field( 'gp_settings_field_title_color', __( 'Title Color', 'lang_geoprojects' ), 'gp_settings_field_title_color_content', 'gp_theme_settings', 'gp_settings_section_design' );
+	add_settings_field( 'gp_settings_field_title_color', __( 'Site Title Color', 'lang_geoprojects' ), 'gp_settings_field_title_color_content', 'gp_theme_settings', 'gp_settings_section_design' );
 
 	// Field : Tagline Color
-	add_settings_field( 'gp_settings_field_tagline_color', __( 'Tagline Color', 'lang_geoprojects' ), 'gp_settings_field_tagline_color_content', 'gp_theme_settings', 'gp_settings_section_design' );
+	add_settings_field( 'gp_settings_field_tagline_color', __( 'Site Tagline Color', 'lang_geoprojects' ), 'gp_settings_field_tagline_color_content', 'gp_theme_settings', 'gp_settings_section_design' );
 
 	// Field : Primary Color
 	add_settings_field( 'gp_settings_field_primary_color', __( 'Primary Color', 'lang_geoprojects' ), 'gp_settings_field_primary_color_content', 'gp_theme_settings', 'gp_settings_section_design' );
