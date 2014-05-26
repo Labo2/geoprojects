@@ -16,11 +16,11 @@
 		<meta name="viewport" content="width=device-width">
 		<meta name="author" content="Nicolas Derambure">
 
-		<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>?v=1.0.3">
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>?v=0.1.1">
 
 		<?php gp_the_css_for_custom_colors(); ?>
 
-		<!-- <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" /> -->
+		<!-- <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico?v=0.1.1" /> -->
   
 		<?php /* For iPhone 4 with high-resolution Retina display */ ?>
 		<!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png"> -->
@@ -51,7 +51,7 @@
 
 				<div>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><span><?php bloginfo( 'name' ); ?></span></a></h1>
-					<h2 class="site-description txt-on-bg"><?php bloginfo( 'description' ); ?></h2>
+					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 				</div>
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">

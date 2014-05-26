@@ -60,22 +60,22 @@ function gp_admin_enqueue_scripts( $hook ) {
     $gp_options = get_option( 'gp_options' );
 
 	// Admin CSS
-	wp_enqueue_style( 'gp_admin_css', GP_URL_CSS . '/admin.css', array(), '1.0.1', 'all' );
+	wp_enqueue_style( 'gp_admin_css', GP_URL_CSS . '/admin.css', array(), '0.1.1', 'all' );
 
     // For Map / Marker Forms and settings page
     if ( $post_type == 'markers' || $post_type == 'maps' || ( $pagenow == 'admin.php' && isset( $_GET['page'] ) && $_GET['page'] == 'gp_geoprojects_page' ) ) {
 
         // Leaflet CSS
-        wp_enqueue_style( 'gp_leaflet_css', GP_URL_LEAFLET . '/leaflet.css', array(), '1.0.1', 'all' );
+        wp_enqueue_style( 'gp_leaflet_css', GP_URL_LEAFLET . '/leaflet.css', array(), '0.1.1', 'all' );
 
         // Custom Leaflet CSS
-        wp_enqueue_style( 'gp_leaflet_map_css', GP_URL_CSS . '/leaflet-map.css', array(), '1.0.1', 'all' );
+        wp_enqueue_style( 'gp_leaflet_map_css', GP_URL_CSS . '/leaflet-map.css', array(), '0.1.1', 'all' );
 
         // Leaflet JS
-        wp_enqueue_script( 'gp_leaflet_js', GP_URL_LEAFLET . '/leaflet.js', array( 'jquery' ), '1.0.1', true );
+        wp_enqueue_script( 'gp_leaflet_js', GP_URL_LEAFLET . '/leaflet.js', array( 'jquery' ), '0.1.1', true );
 
         // Custom Leaflet JS
-        wp_enqueue_script( 'gp_leaflet_wrapper_js', GP_URL_JS . '/leaflet-wrapper.js', array( 'jquery', 'gp_leaflet_js' ), '1.0.1', true );
+        wp_enqueue_script( 'gp_leaflet_wrapper_js', GP_URL_JS . '/leaflet-wrapper.js', array( 'jquery', 'gp_leaflet_js' ), '0.1.1', true );
 
     }
 
@@ -95,7 +95,7 @@ function gp_admin_enqueue_scripts( $hook ) {
     }
 
     // Admin JS
-    wp_enqueue_script( 'gp_admin_js', GP_URL_JS . '/admin.js', array( 'jquery' ), '1.0.1', true );
+    wp_enqueue_script( 'gp_admin_js', GP_URL_JS . '/admin.js', array( 'jquery' ), '0.1.1', true );
 
     // Some global vars
     wp_localize_script( 'jquery', 'gpGlobalVars', gp_js_global_vars() );

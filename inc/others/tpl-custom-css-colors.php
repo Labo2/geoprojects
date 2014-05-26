@@ -1,4 +1,16 @@
 <style type="text/css">
+
+    /* Title Color */
+
+    .site-title a:link,
+    .site-title a:visited                                           {color:<?php echo $title_color; ?>}
+    .site-title a:hover,
+    .site-title a:active,
+    .site-title a:focus                                             {color:<?php echo $secondary_color; ?>}
+
+    /* Tagline Color */
+
+    .site-description                                               {color:<?php echo $tagline_color; ?>}
     
     /* Primary Color */
 

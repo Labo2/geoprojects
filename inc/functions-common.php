@@ -130,11 +130,9 @@ function gp_setup() {
 	add_image_size( 'gp-project-thumb', GP_IMAGE_SIZE_PROJECT_THUMB_WIDTH, GP_IMAGE_SIZE_PROJECT_THUMB_HEIGHT, false );
 	add_image_size( 'gp-post-thumb-in-list', GP_IMAGE_SIZE_POST_THUMB_IN_LIST_WIDTH, GP_IMAGE_SIZE_POST_THUMB_IN_LIST_HEIGHT, true );
 
-	// If theme is activated
-	if ( isset( $_GET['activated'] ) ) {
-		// Create default theme options (settings)
-		gp_default_theme_options();
-	}
+	// Create/update theme options
+	gp_manage_theme_options();
+
 }
 
 add_action( 'after_setup_theme', 'gp_setup' );
@@ -143,9 +141,11 @@ add_action( 'after_setup_theme', 'gp_setup' );
 /**
  * Define the default theme options (settings)
  */
-function gp_default_theme_options() {
+function gp_manage_theme_options() {
 
 	$default_options = array(
+		'title_color' 					=> GP_DEFAULT_TITLE_COLOR,
+		'tagline_color' 				=> GP_DEFAULT_TAGLINE_COLOR,
 		'primary_color'					=> GP_DEFAULT_PRIMARY_COLOR,
 		'secondary_color'				=> GP_DEFAULT_SECONDARY_COLOR,
 		'front_nb_maps'					=> GP_DEFAULT_FRONT_NB_MAPS,
@@ -162,12 +162,45 @@ function gp_default_theme_options() {
 		'url_facebook' 					=> GP_DEFAULT_URL_FACEBOOK,
 		'url_youtube' 					=> GP_DEFAULT_URL_YOUTUBE,
 		'project_trash_keep_contents' 	=> GP_DEFAULT_PROJECT_TRASH_KEEP_CONTENTS,
-		'map_trash_keep_markers'		=> GP_DEFAULT_MAP_TRASH_KEEP_MARKERS,
-		'theme_version' 				=> GP_THEME_VERSION
+		'map_trash_keep_markers'		=> GP_DEFAULT_MAP_TRASH_KEEP_MARKERS
 	);
 
-	// delete_option( 'gp_options' ); // uncomment for debug
-	add_option( 'gp_options', $default_options );
+	// Get current options if any
+	$current_options = get_option( 'gp_options' );
+	$current_gp_theme_version = get_option( 'gp_theme_version' );
+
+	// Options already exists
+	if ( $current_options !== false ) {
+
+		// Test if no version was set
+		if ( $current_gp_theme_version === false ) {
+
+			update_option( 'gp_theme_version', '0.1.0' );
+			$current_gp_theme_version = '0.1.0';
+
+		}
+
+		// Need options update ?
+		if ( version_compare( $current_gp_theme_version, GP_THEME_VERSION, '<' ) === true ) {
+
+			// Update for 0.1.1
+			if ( GP_THEME_VERSION == '0.1.1' ) {
+				$current_options['title_color'] = GP_DEFAULT_TITLE_COLOR;
+				$current_options['tagline_color'] = GP_DEFAULT_TAGLINE_COLOR;
+
+				update_option( 'gp_options', $current_options );
+				update_option( 'gp_theme_version', GP_THEME_VERSION );
+			}
+		}
+	
+	}
+	// Create options
+	else {
+
+		add_option( 'gp_options', $default_options );
+		add_option( 'gp_theme_version', GP_THEME_VERSION );
+
+	}
 
 }
 
