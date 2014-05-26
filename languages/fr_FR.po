@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoProjects\n"
-"POT-Creation-Date: 2014-04-28 14:16+0100\n"
-"PO-Revision-Date: 2014-04-28 14:17+0100\n"
-"Last-Translator: Labomedia <nderambure@labomedia.net>\n"
+"POT-Creation-Date: 2014-05-26 23:05+0100\n"
+"PO-Revision-Date: 2014-05-26 23:05+0100\n"
+"Last-Translator: Nicolas Derambure <nicolasderambure@gmail.com>\n"
 "Language-Team: Labomedia <nderambure@labomedia.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.6.5\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -113,7 +113,7 @@ msgstr "Dans "
 
 #: ../content-project-contents-list.php:71
 #: ../content-project-contents-list.php:72 ../inc/mbox/marker-infos.php:99
-#: ../inc/others/template-tags.php:322 ../inc/others/template-tags.php:323
+#: ../inc/others/template-tags.php:324 ../inc/others/template-tags.php:325
 #: ../sidebar-single-map.php:83 ../sidebar-single-map.php:84
 #: ../tpl-home.php:87 ../tpl-home.php:88
 msgid "See the map"
@@ -250,7 +250,7 @@ msgid "Map"
 msgstr "Carte"
 
 #: ../inc/cpt/maps.php:21 ../inc/functions-admin.php:139
-#: ../inc/others/settings.php:35
+#: ../inc/others/settings.php:41
 msgid "Maps"
 msgstr "Cartes"
 
@@ -396,7 +396,7 @@ msgstr "privé"
 msgid "Primary Menu"
 msgstr "Menu Primaire"
 
-#: ../inc/functions-common.php:184
+#: ../inc/functions-common.php:217
 msgid "Footer Widgets"
 msgstr "Widgets Pied de page"
 
@@ -510,7 +510,7 @@ msgstr "Sauvez cette carte avant de cliquer"
 msgid "Marker Informations"
 msgstr "Informations du Marker"
 
-#: ../inc/mbox/marker-infos.php:58 ../inc/others/settings.php:69
+#: ../inc/mbox/marker-infos.php:58 ../inc/others/settings.php:75
 msgid "General"
 msgstr "Général"
 
@@ -902,58 +902,66 @@ msgid "Design"
 msgstr "Design"
 
 #: ../inc/others/settings.php:27
+msgid "Site Title Color"
+msgstr "Couleur du Titre du site"
+
+#: ../inc/others/settings.php:30
+msgid "Site Tagline Color"
+msgstr "Couleur du Slogan du site"
+
+#: ../inc/others/settings.php:33
 msgid "Primary Color"
 msgstr "Couleur Primaire"
 
-#: ../inc/others/settings.php:30
+#: ../inc/others/settings.php:36
 msgid "Secondary Color"
 msgstr "Couleur Secondaire"
 
-#: ../inc/others/settings.php:38
+#: ../inc/others/settings.php:44
 msgid "Cloudmade API key"
 msgstr "Clef d'API Cloudmade"
 
-#: ../inc/others/settings.php:41
+#: ../inc/others/settings.php:47
 msgid "Maps default tiles provider"
 msgstr "Fournisseur de dalles par défaut des cartes"
 
-#: ../inc/others/settings.php:44
+#: ../inc/others/settings.php:50
 msgid "Big map default tiles provider"
 msgstr "Fournisseur de dalles par défaut de la grande carte"
 
-#: ../inc/others/settings.php:47
+#: ../inc/others/settings.php:53
 msgid "Maps default center and zoom"
 msgstr "Centre par défaut des cartes"
 
-#: ../inc/others/settings.php:50
+#: ../inc/others/settings.php:56
 msgid "Export maps"
 msgstr "Exporter les cartes"
 
-#: ../inc/others/settings.php:55
+#: ../inc/others/settings.php:61
 msgid "Social"
 msgstr "Social"
 
-#: ../inc/others/settings.php:58 ../inc/others/settings.php:64
+#: ../inc/others/settings.php:64 ../inc/others/settings.php:70
 msgid "Twitter URL"
 msgstr "URL Twitter du projet"
 
-#: ../inc/others/settings.php:61
+#: ../inc/others/settings.php:67
 msgid "Facebook URL"
 msgstr "URL Facebook du projet"
 
-#: ../inc/others/settings.php:72
+#: ../inc/others/settings.php:78
 msgid "Number of maps on front page"
 msgstr "Nombre de cartes affichées sur la page d'accueil"
 
-#: ../inc/others/settings.php:75
+#: ../inc/others/settings.php:81
 msgid "When trashing a project"
 msgstr "Lorsqu'un projet est supprimé"
 
-#: ../inc/others/settings.php:78
+#: ../inc/others/settings.php:84
 msgid "When trashing a map"
 msgstr "Lorsqu'une carte est supprimée"
 
-#: ../inc/others/settings.php:138
+#: ../inc/others/settings.php:174
 msgid ""
 "If you want to use Cloudmade tiles provider, you need to <a href=\"http://"
 "cloudmade.com\" target=\"_blank\">register on the Cloudmade website</a> and "
@@ -963,7 +971,7 @@ msgstr ""
 "<a href=\"http://cloudmade.com\" target=\"_blank\">vous enregistrer sur le "
 "site de Cloudmade</a> afin d'obtenir une clef d'API."
 
-#: ../inc/others/settings.php:172
+#: ../inc/others/settings.php:208
 msgid ""
 "You can choose a Cloudmade Style ID in <a href=\"http://maps.cloudmade.com/"
 "editor\" target=\"_blank\">the CloudMade style Editor</a> : this is the "
@@ -973,7 +981,7 @@ msgstr ""
 "cloudmade.com/editor\" target=\"_blank\">l'éditeur Cloudmade</a> : c'est le "
 "nombre en bas à droite de chaque style de carte."
 
-#: ../inc/others/settings.php:173
+#: ../inc/others/settings.php:209
 msgid ""
 "You can also create your own style by choosing a style in the list and click "
 "the \"Clone Style\" button at the bottom right."
@@ -982,15 +990,15 @@ msgstr ""
 "existants, puis en cliquant sur le bouton \"Clone Style\" en bas à droite de "
 "l'écran."
 
-#: ../inc/others/settings.php:207
+#: ../inc/others/settings.php:243
 msgid "See above for explanation about Style ID."
 msgstr "Voir ci-dessus pour les explications à propos du Numéro de Style."
 
-#: ../inc/others/settings.php:226
+#: ../inc/others/settings.php:262
 msgid "Drag and zoom to the desired default position."
 msgstr "Déplacer le marker à la position souhaitée."
 
-#: ../inc/others/settings.php:227
+#: ../inc/others/settings.php:263
 msgid ""
 "This is the default center and zoom when creating a marker or when a map has "
 "no markers."
@@ -998,11 +1006,11 @@ msgstr ""
 "C'est le centre de carte par défaut lors de la création d'un Marker, ou "
 "lorsqu'une carte n'en contient aucun."
 
-#: ../inc/others/settings.php:255
+#: ../inc/others/settings.php:291
 msgid "Maps are shareable by default"
 msgstr "Les cartes sont partageables par défaut."
 
-#: ../inc/others/settings.php:258
+#: ../inc/others/settings.php:294
 msgid ""
 "If you change this setting, it will only be applied to new maps. You can "
 "change this setting in each map's form."
@@ -1010,18 +1018,18 @@ msgstr ""
 "Si vous changez ce paramètre, il ne sera appliqué qu'aux nouvelles cartes. "
 "Vous pouvez modifier ce paramètre pour chaque carte, dans son formulaire."
 
-#: ../inc/others/settings.php:347
+#: ../inc/others/settings.php:383
 msgid ""
 "Keep maps and posts (they won't belong to any project until you edit them)"
 msgstr ""
 "Conserver les cartes et les articles (ils n'appartiendront à aucun projet "
 "tant que vous ne les aurez pas modifié)"
 
-#: ../inc/others/settings.php:354
+#: ../inc/others/settings.php:390
 msgid "Send maps, markers and posts to trash"
 msgstr "Envoyer les cartes, markers et articles à la corbeille"
 
-#: ../inc/others/settings.php:358
+#: ../inc/others/settings.php:394
 msgid ""
 "Note that if you choose to send contents to trash, and want to restore "
 "them : the maps and posts won't belong to any project, and the markers won't "
@@ -1032,17 +1040,17 @@ msgstr ""
 "n'appartiendront plus à aucun projet et les markers n'appartiendront plus à "
 "aucune carte."
 
-#: ../inc/others/settings.php:375
+#: ../inc/others/settings.php:411
 msgid "Keep markers (they won't belong to any map until you edit them)"
 msgstr ""
 "Conserver les markers (ils n'appartiendront à aucune tant que vous ne les "
 "aurez pas modifié)"
 
-#: ../inc/others/settings.php:382
+#: ../inc/others/settings.php:418
 msgid "Send map's markers to trash"
 msgstr "Envoyer les markers des cartes à la corbeille"
 
-#: ../inc/others/settings.php:386
+#: ../inc/others/settings.php:422
 msgid ""
 "Note that if you choose to send markers to trash, they won't belong to any "
 "map if you restore them."
@@ -1050,14 +1058,14 @@ msgstr ""
 "Notez que si vous choisissez d'envoyer les markers à la corbeille, ils "
 "n'appartiendront à aucune carte si vous les restaurez par la suite."
 
-#: ../inc/others/settings.php:440
+#: ../inc/others/settings.php:494
 msgid ""
 "The default tiles provider was weird. It has been reset to the default value."
 msgstr ""
 "Le fournisseur de dalles par défaut des cartes était bizarre. Il a été "
 "réinitialisé."
 
-#: ../inc/others/settings.php:455
+#: ../inc/others/settings.php:509
 msgid ""
 "The default tiles provider for Big map was weird. It has been reset to the "
 "default value."
@@ -1065,15 +1073,15 @@ msgstr ""
 "Le fournisseur de dalles par défaut de la grande carte était bizarre. Il a "
 "été réinitialisé."
 
-#: ../inc/others/settings.php:481
+#: ../inc/others/settings.php:535
 msgid "Settings saved."
 msgstr "Paramètres sauvegardés."
 
-#: ../inc/others/settings.php:482
+#: ../inc/others/settings.php:536
 msgid "Important note"
 msgstr "Note importante"
 
-#: ../inc/others/settings.php:483
+#: ../inc/others/settings.php:537
 msgid ""
 "Some of your maps were using Cloudmade as tiles provider, and you choose to "
 "delete your Cloudmade API key. In consequence, these maps has been reset to "
@@ -1084,7 +1092,7 @@ msgstr ""
 "conséquence, ces cartes utiliseront désormais le fournisseur de cartes par "
 "défaut."
 
-#: ../inc/others/settings.php:495
+#: ../inc/others/settings.php:549
 msgid ""
 "The Cloudmade API key is not valid. It must contain only alphanumeric "
 "characters. The value has been reset to the default value."
@@ -1092,7 +1100,7 @@ msgstr ""
 "La clef d'API Cloudmade est invalide. Elle ne doit contenir que des "
 "caractères alphanumériques, et a donc été réinitialisée."
 
-#: ../inc/others/settings.php:505
+#: ../inc/others/settings.php:559
 msgid ""
 "The Cloudmade API key is not valid. It must contain at least 32 characters. "
 "The value has been reset to the default value."
@@ -1100,7 +1108,7 @@ msgstr ""
 "La clef d'API Cloudmade est invalide. Elle doit être constituée de 32 "
 "caractères, et a donc été réinitialisée."
 
-#: ../inc/others/settings.php:516
+#: ../inc/others/settings.php:570
 msgid ""
 "If you want to set the tiles provider to CloudMade for maps, you must give a "
 "Cloudmade API Key. The tiles provider has been reset to the default value."
@@ -1108,7 +1116,7 @@ msgstr ""
 "Si vous souhaitez utiliser Cloudmade comme fournisseur de dalles par défaut "
 "pour vos cartes, vous devez fournir une clef d'API."
 
-#: ../inc/others/settings.php:527
+#: ../inc/others/settings.php:581
 msgid ""
 "If you want to set the tiles provider for the big map to CloudMade, you must "
 "give a Cloudmade API Key. The tiles provider has been reset to the default "
@@ -1117,7 +1125,7 @@ msgstr ""
 "Si vous souhaitez utiliser Cloudmade comme fournisseur de dalles par défaut "
 "pour la grande carte, vous devez fournir une clef d'API."
 
-#: ../inc/others/settings.php:543
+#: ../inc/others/settings.php:597
 msgid ""
 "The default CloudMade Style for maps must be an integer. It has been reset "
 "to the default value."
@@ -1125,7 +1133,7 @@ msgstr ""
 "Le style Cloudmade par défaut de vos cartes doit être un entier. Il a été "
 "réinitialisé."
 
-#: ../inc/others/settings.php:564
+#: ../inc/others/settings.php:618
 msgid ""
 "The default CloudMade Style for the Big map must be an integer. It has been "
 "reset to the default value."
@@ -1133,96 +1141,96 @@ msgstr ""
 "Le style Cloudmade par défaut de la grande carte doit être un entier. Il a "
 "été réinitialisé."
 
-#: ../inc/others/settings.php:609
+#: ../inc/others/settings.php:663
 msgid ""
 "The number of maps on front must be an integer. It has been reset to the "
 "default value."
 msgstr ""
 "Le nombre de cartes affichés sur la page d'accueil doit être un entier."
 
-#: ../inc/others/template-tags.php:54
+#: ../inc/others/template-tags.php:56
 msgid "Post navigation"
 msgstr "Navigation des artivles"
 
-#: ../inc/others/template-tags.php:64
+#: ../inc/others/template-tags.php:66
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Anciens articles"
 
-#: ../inc/others/template-tags.php:68
+#: ../inc/others/template-tags.php:70
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Nouveaux articles <span class=\"meta-nav\">&rarr;</span>"
 
-#: ../inc/others/template-tags.php:92
+#: ../inc/others/template-tags.php:94
 msgid "Pingback:"
 msgstr "Pingback :"
 
-#: ../inc/others/template-tags.php:92 ../inc/others/template-tags.php:114
+#: ../inc/others/template-tags.php:94 ../inc/others/template-tags.php:116
 msgid "(Edit)"
 msgstr "(Modifier)"
 
-#: ../inc/others/template-tags.php:102
+#: ../inc/others/template-tags.php:104
 #, php-format
 msgid "%s <span class=\"says\">says:</span>"
 msgstr "%s <span class=\"says\">a dit :</span>"
 
-#: ../inc/others/template-tags.php:105
+#: ../inc/others/template-tags.php:107
 msgid "Your comment is awaiting moderation."
 msgstr "Votre commentaire est en attente de modération."
 
 #. translators: 1: date, 2: time
-#: ../inc/others/template-tags.php:112
+#: ../inc/others/template-tags.php:114
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s à %2$s"
 
-#: ../inc/others/template-tags.php:138
+#: ../inc/others/template-tags.php:140
 msgid "by"
 msgstr "par"
 
-#: ../inc/others/template-tags.php:206
+#: ../inc/others/template-tags.php:208
 msgid "Projects list"
 msgstr "Liste des Projets"
 
-#: ../inc/others/template-tags.php:234 ../inc/others/template-tags.php:242
-#: ../inc/others/template-tags.php:250
+#: ../inc/others/template-tags.php:236 ../inc/others/template-tags.php:244
+#: ../inc/others/template-tags.php:252
 msgid "Click to see all projects"
 msgstr "Cliquer pour voir tous les projets"
 
-#: ../inc/others/template-tags.php:235 ../inc/others/template-tags.php:243
-#: ../inc/others/template-tags.php:251
+#: ../inc/others/template-tags.php:237 ../inc/others/template-tags.php:245
+#: ../inc/others/template-tags.php:253
 #, php-format
 msgid "%1$d more projects"
 msgstr "%1$d projets supplémentaires"
 
-#: ../inc/others/template-tags.php:292
+#: ../inc/others/template-tags.php:294
 msgid "Last Maps"
 msgstr "Dernières Cartes"
 
-#: ../inc/others/template-tags.php:386
+#: ../inc/others/template-tags.php:388
 msgid "Youtube"
 msgstr "qYoutube"
 
-#: ../inc/others/template-tags.php:387
+#: ../inc/others/template-tags.php:389
 msgid "See our Youtube"
 msgstr "Voir notre chaine Youtube"
 
-#: ../inc/others/template-tags.php:393
+#: ../inc/others/template-tags.php:395
 msgid "Facebook"
 msgstr "Facebook"
 
-#: ../inc/others/template-tags.php:394
+#: ../inc/others/template-tags.php:396
 msgid "See our Facebook page"
 msgstr "Voir notre page Facebook"
 
-#: ../inc/others/template-tags.php:400
+#: ../inc/others/template-tags.php:402
 msgid "Twitter"
 msgstr "Twitter"
 
-#: ../inc/others/template-tags.php:401
+#: ../inc/others/template-tags.php:403
 msgid "See our Twitter feed"
 msgstr "Voir notre flux Twitter"
 
-#: ../inc/others/template-tags.php:410 ../inc/others/template-tags.php:412
+#: ../inc/others/template-tags.php:412 ../inc/others/template-tags.php:414
 msgid "RSS Feed"
 msgstr "FLux RSS"
 
