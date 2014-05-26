@@ -10,7 +10,7 @@ $upload_dir = wp_upload_dir();
 
 /* SOME COOL VARS */
 
-define( 'GP_THEME_VERSION', '1.0.0' );
+define( 'GP_THEME_VERSION', '0.1.1' );
 
 define( 'GP_DEFAULT_MARKER_FILE', '0000.png' );
 define( 'GP_CUSTOM_MARKERS_ICONS_DIRNAME', 'markers-icons' );
@@ -41,6 +41,8 @@ define( 'GP_DEFAULT_EXPORT_MAP_HEIGHT', 400 );
 
 /* THEME SETTINGS */
 
+define( 'GP_DEFAULT_TITLE_COLOR', '#86A2C2' );
+define( 'GP_DEFAULT_TAGLINE_COLOR', '#FFFFFF' );
 define( 'GP_DEFAULT_PRIMARY_COLOR', '#86A2C2' );
 define( 'GP_DEFAULT_SECONDARY_COLOR', '#39526E' );
 define( 'GP_DEFAULT_TILES_PROVIDER', 'osm' );

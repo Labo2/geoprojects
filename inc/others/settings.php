@@ -23,6 +23,12 @@ function gp_register_settings() {
 	 */
 	add_settings_section( 'gp_settings_section_design', __( 'Design', 'lang_geoprojects' ), 'gp_settings_section_design_text', 'gp_theme_settings' );
 
+	// Field : Title Color
+	add_settings_field( 'gp_settings_field_title_color', __( 'Title Color', 'lang_geoprojects' ), 'gp_settings_field_title_color_content', 'gp_theme_settings', 'gp_settings_section_design' );
+
+	// Field : Tagline Color
+	add_settings_field( 'gp_settings_field_tagline_color', __( 'Tagline Color', 'lang_geoprojects' ), 'gp_settings_field_tagline_color_content', 'gp_theme_settings', 'gp_settings_section_design' );
+
 	// Field : Primary Color
 	add_settings_field( 'gp_settings_field_primary_color', __( 'Primary Color', 'lang_geoprojects' ), 'gp_settings_field_primary_color_content', 'gp_theme_settings', 'gp_settings_section_design' );
 
@@ -85,6 +91,36 @@ function gp_register_settings() {
  */
 function gp_settings_section_design_text() {
 	// Nothing usefull to display for now
+}
+
+
+/**
+ * Field display/fill : gp_settings_field_title_color
+ */
+function gp_settings_field_title_color_content() {
+	$options = get_option( 'gp_options' );
+	$title_color = $options['title_color'];
+	$title_color = ( $title_color == '' ) ? GP_DEFAULT_TITLE_COLOR : $title_color;
+	?>
+
+	<input type="text" id="setting-title-color" class="regular-text" name="gp_options[title_color]" value="<?php echo $title_color; ?>" data-default-color="<?php echo GP_DEFAULT_TITLE_COLOR; ?>">
+
+	<?php
+}
+
+
+/**
+ * Field display/fill : gp_settings_field_tagline_color
+ */
+function gp_settings_field_tagline_color_content() {
+	$options = get_option( 'gp_options' );
+	$tagline_color = $options['tagline_color'];
+	$tagline_color = ( $tagline_color == '' ) ? GP_DEFAULT_TAGLINE_COLOR : $tagline_color;
+	?>
+
+	<input type="text" id="setting-tagline-color" class="regular-text" name="gp_options[tagline_color]" value="<?php echo $tagline_color; ?>" data-default-color="<?php echo GP_DEFAULT_TAGLINE_COLOR; ?>">
+
+	<?php
 }
 
 
@@ -405,6 +441,24 @@ function gp_validate_options( $user_input ) {
 	 * DESIGN
 	 */
 
+
+	/* Title Color */
+
+	$valid['title_color'] = $user_input['title_color'];
+
+	// if empty, set to default
+	if ( $valid['title_color'] == '' ) {
+		$valid['title_color'] = GP_DEFAULT_TITLE_COLOR;
+	}
+
+	/* Tagline Color */
+
+	$valid['tagline_color'] = $user_input['tagline_color'];
+
+	// if empty, set to default
+	if ( $valid['tagline_color'] == '' ) {
+		$valid['tagline_color'] = GP_DEFAULT_TAGLINE_COLOR;
+	}
 
 	/* Primary Color */
 

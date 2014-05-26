@@ -14,6 +14,8 @@
  */
 function gp_the_css_for_custom_colors() {
 	$gp_options = get_option( 'gp_options' );
+	$title_color = $gp_options['title_color'];
+	$tagline_color = $gp_options['tagline_color'];
 	$primary_color = $gp_options['primary_color'];
 	$secondary_color = $gp_options['secondary_color'];
 
