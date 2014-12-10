@@ -68,6 +68,8 @@ input.map-search-field                  					{margin-right:5px; width:250px; fon
 .gp-map-export h3 											{margin:0; font-size:18px}
 .gp-map-export p 											{padding:0 10px}
 .gp-map-export label										{display:block; padding-bottom:5px; font-size:14px}
+.gp-map-export input,
+.gp-map-export textarea 									{color:#888}
 .gp-map-export-code 										{margin-bottom:8px}
 #gp-map-export-height 										{width:100px}
 #gp-map-export-code 										{width:100%; height:80px; font-size:12px}
