@@ -10,7 +10,7 @@ $upload_dir = wp_upload_dir();
 
 /* SOME COOL VARS */
 
-define( 'GP_THEME_VERSION', '0.1.2' );
+define( 'GP_THEME_VERSION', '0.1.3' );
 
 define( 'GP_DEFAULT_MARKER_FILE', '0000.png' );
 define( 'GP_CUSTOM_MARKERS_ICONS_DIRNAME', 'markers-icons' );
