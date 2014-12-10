@@ -18,10 +18,10 @@ function gp_enqueue_scripts() {
 		$gp_options = get_option( 'gp_options' );
 
 		// Leaflet CSS
-	    wp_enqueue_style( 'gp_leaflet_css', GP_URL_LEAFLET . '/leaflet.css', array(), '0.1.2', 'all' );
+	    wp_enqueue_style( 'gp_leaflet_css', GP_URL_LEAFLET . '/leaflet.css', array(), GP_THEME_VERSION, 'all' );
 
 	    // Custom Leaflet CSS
-	    wp_enqueue_style( 'gp_leaflet_map_css', GP_URL_CSS . '/leaflet-map.css', array(), '0.1.2', 'all' );
+	    wp_enqueue_style( 'gp_leaflet_map_css', GP_URL_CSS . '/leaflet-map.css', array(), GP_THEME_VERSION, 'all' );
 
 	    // MediaElement CSS
 	    wp_enqueue_style( 'mediaelement' );
@@ -29,7 +29,7 @@ function gp_enqueue_scripts() {
 
 		// Frontend JS
 		// Including : Respond.js, the small navigation menu trigger, fitvids.js, iOS orientation fix
-		wp_enqueue_script( 'gp_frontend_js', GP_URL_JS . '/frontend.js', array( 'jquery' ), '0.1.2', true );
+		wp_enqueue_script( 'gp_frontend_js', GP_URL_JS . '/frontend.js', array( 'jquery' ), GP_THEME_VERSION, true );
 
 		wp_localize_script( 'jquery', 'gpGlobalVars', gp_js_global_vars() );
 
@@ -45,7 +45,7 @@ function gp_enqueue_scripts() {
 		if ( wp_style_is( 'open-sans', 'registered' ) ) {
 			wp_deregister_style( 'open-sans' );
 		}
-		wp_enqueue_style( 'open-sans', '//fonts.googleapis.com/css?family=Ubuntu+Condensed|Open+Sans:300italic,400,300,600&subset=latin,latin-ext', array(), '0.1.2', 'all' );
+		wp_enqueue_style( 'open-sans', '//fonts.googleapis.com/css?family=Ubuntu+Condensed|Open+Sans:300italic,400,300,600&subset=latin,latin-ext', array(), GP_THEME_VERSION, 'all' );
 
 	}
 
@@ -113,14 +113,14 @@ function gp_load_frontend_leaflet() {
 
 	// Leaflet JS
 	wp_dequeue_script( 'gp_leaflet_js' );
-    wp_enqueue_script( 'gp_leaflet_js', GP_URL_LEAFLET . '/leaflet.js', array( 'jquery' ), '0.1.2', true );
+    wp_enqueue_script( 'gp_leaflet_js', GP_URL_LEAFLET . '/leaflet.js', array( 'jquery' ), GP_THEME_VERSION, true );
 
     // Custom Leaflet JS
     wp_dequeue_script( 'gp_leaflet_wrapper_js' );
-    wp_enqueue_script( 'gp_leaflet_wrapper_js', GP_URL_JS . '/leaflet-wrapper.js', array( 'jquery', 'gp_leaflet_js' ), '0.1.2', true );
+    wp_enqueue_script( 'gp_leaflet_wrapper_js', GP_URL_JS . '/leaflet-wrapper.js', array( 'jquery', 'gp_leaflet_js' ), GP_THEME_VERSION, true );
 
     // Custom JS (reloaded here for placing it after leaflet)
     wp_dequeue_script( 'gp_frontend_js' );
-    wp_enqueue_script( 'gp_frontend_js', GP_URL_JS . '/frontend.js', array( 'jquery', 'gp_leaflet_wrapper_js' ), '0.1.2', true );
+    wp_enqueue_script( 'gp_frontend_js', GP_URL_JS . '/frontend.js', array( 'jquery', 'gp_leaflet_wrapper_js' ), GP_THEME_VERSION, true );
 
 }
